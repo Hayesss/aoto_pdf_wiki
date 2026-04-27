@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "a2e59ef75a9654cb",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b1f9d804593a28a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "59c1d8c741a9ee2e",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "未命名.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "未命名"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "21c5ded4a88481ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "774727797fe086a4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "782e3e5302e4a0ba",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "64bde86f283afa81",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "28f5cff61871b65f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7beced0a4370bc8c",
+    "type": "split",
+    "children": [
+      {
+        "id": "65a5f0f170236dcf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a1f2415da859595e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "未命名.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "未命名 的反向链接列表"
+            }
+          },
+          {
+            "id": "bd498d7e9011283e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "未命名.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "未命名 的出链列表"
+            }
+          },
+          {
+            "id": "aa0a04cbeb5d4bce",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "9319f2dca4f8ceb3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "fb17d00495c206cf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "未命名.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "未命名 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "59c1d8c741a9ee2e",
+  "lastOpenFiles": [
+    "graph.md",
+    "papers/Zu 等 - 2023 - Single-cell analysis of chromatin accessibility in.md",
+    "papers/Zhou 等 - 2020 - Roles of Aminoacyl-tRNA Synthetases in Cancer.md",
+    "papers/Zhou 等 - 2014 - How the ribosome hands the A-site tRNA to the P site during EF-G.md",
+    "papers/Zhou et al. Molecular Cancer (2024) 2376 Molecular Cancer.md",
+    "papers/Zhang et al. Genome Biology (2023) 24199 Genome Biology.md",
+    "papers/Yu 等 - 2022 - Selective degradation of tRNASer(AGY) is the primary driver for mi_7.md",
+    "papers/YTHDC1 cooperates with the THO complex to.md",
+    "papers/YAP maintains the dynamics of TDP-43.md",
+    "papers/Yang和Vousden - 2016 - Serine and one-carbon metabolism in cancer.md",
+    "papers/Xu 等。 - 2020 - Direct Targeting of CREB1 with Imperatorin Inhibit.md",
+    "papers/Wu 等 - 2020 - Serine and Metabolism Regulation A Novel Mechanism in Antitumor Im.md",
+    "papers/Wu 等 - 2020 - A single-cell survey of cellular hierarchy in acut.md",
+    "papers/Widespread Post-transcriptional Attenuation of Genomic Copy-Number Variation in .md",
+    "papers/Wangetal.CellDiscovery( 2023) 961 Cell Discovery.md",
+    "papers/Vol4437September2006doi10.1038nature05096 Editing-defective tRNA synthetase caus.md",
+    "papers/Vol4414May2006doi10.1038nature04734 Differential roles of MDA5 and RIG-I helicas.md",
+    "papers/VDAC2 loss elicits tumour destruction and.md",
+    "papers/Valine tRNA levels and availability regulate.md",
+    "papers/Understanding the complexity of p53 in a new era of tumor.md",
+    "papers/Ubiquitination is essential for recovery of cellular activities.md",
+    "papers/Tumour-specific proline vulnerability uncovered by.md",
+    "papers/Tryptophan depletion results in.md",
+    "papers/TRANSLATIONAL RESEARCH EuropeanHeartJournal(2021)42,4264–4276.md",
+    "papers/Translation dysregulation in cancer as a source for.md",
+    "papers/Transient loss of Polycomb components.md",
+    "未命名.canvas",
+    "papers",
+    "raw/assets/bilibili-BV1h1PxzpEjm.mp3",
+    "raw/assets/bilibili-BV1h1PxzpEjm.m4a",
+    "raw/assets/bilibili-BV1h1PxzpEjm.m4a.part",
+    "Clippings",
+    "_meta"
+  ]
+}

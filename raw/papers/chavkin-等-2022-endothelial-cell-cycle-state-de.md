@@ -1,0 +1,96 @@
+---
+source_url: zotero://select/items/2RI547X5
+ingested: 2026-04-22
+sha256: d2b5239938e3a0f0
+---
+
+# Chavkin 等 - 2022 - Endothelial cell cycle state determines propensity for arterial-venous fate
+
+> Zotero Item Key: 2RI547X5
+> Original File: Chavkin 等 - 2022 - Endothelial cell cycle state determines propensity for arterial-venous fate.pdf
+
+## Extracted Text
+
+Article https://doi.org/10.1038/s41467-022-33324-7
+Endothelial cell cycle state determines
+propensity for arterial-venous fate
+Received:14March2021 NicholasW.Chavkin 1,2,GaelGenet 1,MathildePoulet 3,ErinD.Jeffery 4,
+CorinaMarziano1,2,NafiishaGenet1,HemaVasavada3,ElizabethA.Nelson1,
+Accepted:9September2022
+BipulR.Acharya1,AnupreetKour2,JordonAragon 1,StephanieP.McDonnell1,
+MahaliaHuba1,GloriaM.Sheynkman 4,5,6,7,KennethWalsh 2,8&
+KarenK.Hirschi 1,2,3
+Checkforupdates
+Duringbloodvesseldevelopment,endothelialcellsbecomespecifiedtoward
+arterialorvenousfatestogenerateacirculatorynetworkthatprovides
+nutrientsandoxygento,andremovesmetabolicwastefrom,alltissues.
+Arterial-venousspecificationoccursinconjunctionwithsuppressionof
+endothelialcellcycleprogression;however,themechanisticroleofcellcycle
+stateisunknown.Herein,usingCdh5-CreERT2;R26FUCCI2aRreportermice,we
+findthatvenousendothelialcellsareenrichedfortheFUCCI-Negativestate
+(earlyG1)andBMPsignaling,whilearterialendothelialcellsareenrichedfor
+theFUCCI-Redstate(lateG1)andTGF-βsignaling.Furthermore,earlyG1state
+isessentialforBMP4-inducedvenousgeneexpression,whereaslateG1stateis
+essentialforTGF-β1-inducedarterialgeneexpression.Pharmacologically
+inducedcellcyclearrestpreventsarterial-venousspecificationdefectsinmice
+withendothelialhyperproliferation.Collectively,ourresultsshowthatdistinct
+endothelialcellcyclestatesprovidedistinctwindowsofopportunityforthe
+molecularinductionofarterialvs.venousfate.
+Healthy tissue development and maintenance require a functional OurpreviousworkshowedthataNotch-Cx37-p27signalingaxis
+bloodcirculatorynetworkcomprisedofarterial,capillary,andvenous promotesendothelialcellcyclearrestthatenablestheupregulationof
+blood vessels lined with specialized endothelialcells. Acquisitionof arterialgenes,whichcanbeactivatedthroughshearstressmagnitudes
+specializedarterialandvenousendothelialcellphenotypesgenerally typicalofarteriesandarterioles2.However,itisnotclearwhethera
+occurs in conjunction with suppression of endothelial cell cycle specificstateofthecellcycleplaysaroleinvenousendothelialcell
+progression1–4.However,welackunderstandingofmechanismsthat specification,orwhetherdistinctcellcyclestatescontrolthediffer-
+coordinately regulate endothelial cell growth suppression and phe- ential specification of arterial and venous endothelial cells. In this
+notypicspecializationduringvascularremodeling,whichcreatessig- regard,multiplesignalingpathwayshavebeenimplicatedinthereg-
+nificant roadblocks for clinical therapies, tissue engineering and ulation of arterial–venous network formation, including TGF-β and
+regenerativemedicine. BMP5–9, but how these signaling pathways function in coordination
+1DepartmentofCellBiology,UniversityofVirginiaSchoolofMedicine,Charlottesville,VA22908,USA.2RobertM.BerneCardiovascularResearchCenter,
+UniversityofVirginiaSchoolofMedicine,Charlottesville,VA22908,USA.3DepartmentofMedicine,YaleCardiovascularResearchCenterYaleUniversity
+SchoolofMedicine,NewHaven,CT06520,USA.4DepartmentofMolecularPhysiologyandBiologicalPhysics,UniversityofVirginiaSchoolofMedicine,
+Charlottesville,VA22908,USA.5DepartmentofBiochemistryandMolecularGenetics,UniversityofVirginiaSchoolofMedicine,Charlottesville,VA22908,
+USA.6CenterforPublicHealthGenomics,UniversityofVirginiaSchoolofMedicine,Charlottesville,VA22908,USA.7UVAComprehensiveCancerCenter,
+UniversityofVirginia,Charlottesville,VA22908,USA.8HematovascularBiologyCenter,UniversityofVirginiaSchoolofMedicine,Charlottesville,VA22908,
+USA. e-mail:kkh4yy@virginia.edu
+NatureCommunications|( 2022)1 3:5891 1
+;,:)(0987654321 ;,:)(0987654321
+Article https://doi.org/10.1038/s41467-022-33324-7
+withcellcyclestatetoinducespecificendothelialcellphenotypesis Quantification of endothelial cell cycle states in the P6 retinal
+alsonotknown. vasculaturerevealedatransitioninendothelialcellcyclesstatesfromS/
+Tofilltheseknowledgegaps,wecombinedthepreviouslygen- G2/MtoG1incontiguousregionsofthevascularplexi(proximalvein,
+eratedtransgenicallelesoftheCre-responsiveFluorescentUbiquiti- distalvein,distalartery,proximalartery)(Fig.1e).AsendothelialTip
+nation Cell Cycle Indicator (FUCCI) reporter mice labeled cellshavebeenshowntoacquireanarterialphenotype16,17,wequanti-
+R26FUCCI2aR10 and endothelial-specific tamoxifen-inducible Cdh5- fiedthepercentageofTipcellsindistinctcellcyclestatesbyquantifying
+CreERT211micetogeneratemicethatallowvisualizationofcellcycle cell cycle state in angiogenic leading endothelial cells with notable
+statespecificallyinendothelialcells.TheFUCCIreportersystemtakes filopodia extensions. We found 49.5% to be FUCCI-Negative, 50.5%
+advantageofdifferentialubiquitinationanddegradationofcellcycle- FUCCI-RedG1,andnoneinS/G2/M(Fig.1f).Inaddition,wefoundthat
+related proteins Cdt1 and Geminin to identify cell cycle states by P15retinalendothelialcellsfollowedthesamepatternwhereagreater
+expressing fusion proteins mCherry-hCdt1(30/120) and mVenus- proportionofvenousendothelialcellswereFUCCI-Negativeandarterial
+hGem(1/110)10. In S, G2, and M states, only Geminin is expressed, endothelialcellswereenrichedforFUCCI-RedG1,withnocellsinS/G2/
+resultinginmVenus-hGem(1/110)expressionandgreenfluorescence MidentifiedatP15(Fig.1g).Overthetime-course ofretinalvascular
+labelinginS/G2/Mstates;Gemininisthendegradedfollowingmitosis. development(P0-P18),thepercentage ofendothelialcellsin S/G2/M
+Cdt1 is expressed and mCherry-hCdt1(30/120) accumulates as cells decreased to undetectable levels by P15, FUCCI-Negative endothelial
+progressthroughG1state,anditisthendegradedwhencellstransition cellsgraduallydecreasedto~33%,andFUCCI-RedG1endothelialcells
+into S phase. Of note, in the FUCCI2a mice that we employ in our graduallyincreasedto~66%(SupplementaryFig.1a).Inaddition,among
+studies,thereportersdonotdistinguishbetweencellsinG1andG0; capillary endothelial cells, those closer to veins exhibited a higher
+bothexpressCdt1andtheredreporter,andtheFUCCI-Negativecells proportion of FUCCI-Negative cells, whereas those closer to arteries
+arethoughttobeinanearlierstageofG110,12. exhibitedahigherproportioninFUCCI-RedG1(SupplementaryFig.1b,
+Inthesestudies,usingtheseendothelial-specificFUCCIreporter c).Apropensityfordistinctcellcyclestateswasalsoevidentinarterial
+mice, we demonstrate that endothelial cells in veins/venules vs. andvenousendothelialcellsinothertissuesofP6neonates,suchasthe
+arteries/arterioleshaveapropensitytobeindifferentcellcyclestates heart(SupplementaryFig.1d).Inaddition,duringearlydevelopment,
+during vascular development and in adulthood; FUCCI-Negative vs. fromembryonicdays(E)9.5-E11.5,endothelialcellsinthecardinalvein
+FUCCI-Red G1, respectively. Interestingly, in embryonic stem cells, wereenrichedforFUCCI-Negative;incontrast,endothelialcellsinthe
+thesestatesaremolecularlydistinctandrepresentdistinctwindowsof dorsal aorta were highly enriched for FUCCI-Red G1 (Supplementary
+opportunityfortheinductionofmesoderm/endodermvs.ectoderm Fig.1e,f).Interestingly,wefoundthatthisdifferenceincellcyclestates
+lineages13,14.Thus,togainabroaderunderstandingofendothelialcell amongvenousandarterialendothelialcells,respectively,persistedin
+cyclestateandidentity,weperformedsingle-cellRNAsequencingof adultbloodvessels(SupplementaryFig.1g,h).
+developing retinal endothelial cells, in combination with bulk RNA
+sequencing of retinal endothelial cells expressing different FUCCI Endothelialcellcycle-dependentgeneexpression
+reporters. Collectively, these data analyses reveal that specification Tofurtherinvestigatethephenotypesofendothelialcellsdifferentially
+towardsvenousorarterialphenotypesassociateswithenrichmentof expressingFUCCIreporters,weusedfluorescence-activatedcellsort-
+FUCCI-Negativevs.FUCCI-RedG1states,respectively,atasinglecell ing(FACS)toisolateP6retinalCD31+CD45-endothelialcellsfromthe
+level.Inaddition,BMPsignalingisenrichedinvenousandTGF-βsig- FUCCIreportermiceandseparatethemintoFUCCI-Negative,-Redand
+naling enriched in arterial endothelial cells. We then used human -Greenpopulations,thenperformed
+
+... [truncated]

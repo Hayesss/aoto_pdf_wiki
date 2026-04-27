@@ -1,0 +1,1011 @@
+---
+source_path: /mnt/c/Users/Administrator/Zotero/storage/7TIR2D4P/Jackson 和 Finley - 2024 - Metabolic regulation of the hallmarks of stem cell.pdf
+ingested: 2026-04-23
+sha256: 43f3baa4b3906ee1
+---
+
+ll
+Review
+Metabolic regulation of the hallmarks
+of stem cell biology
+BenjaminT.Jackson1,2andLydiaW.S.Finley1,*
+1CellBiologyProgram,MemorialSloanKetteringCancerCenter,NewYork,NY,USA
+2LouisV.GerstnerJr.GraduateSchoolofBiomedicalSciences,NewYork,NY,USA
+*Correspondence:finleyl@mskcc.org
+https://doi.org/10.1016/j.stem.2024.01.003
+SUMMARY
+Stemcellsperformmanydifferentfunctions,eachofwhichrequiresspecificmetabolicadaptations.Overthe
+pastdecades,studiesofpluripotentandtissuestemcellshaveuncoveredarangeofmetabolicpreferences
+andstrategiesthatcorrelatewithorexertcontroloverspecificcellstates.Thisreviewaimstodescribethe
+common themes that emerge from the study of stem cell metabolism: (1) metabolic pathways supporting
+stem cell proliferation, (2) metabolic pathways maintaining stem cell quiescence, (3) metabolic control of
+cellularstressresponsesandcelldeath,(4)metabolicregulationofstemcellidentity,and(5)metabolicre-
+quirementsofthestemcellniche.
+INTRODUCTION nouniversalhallmarksofstemcellmetabolism;rather,metabolic
+signaturesofstemcellsareasvariedastheidentitiesandfunc-
+Stemcellshavetwojobs:toself-renewandtodifferentiate.The tionalstatesofstemcellsthemselves.Forexample,embryonic
+abilityofstemcellstoexpandandgiverisetospecializedprog- stemcellsisolatedfromtheinnercellmassofthepre-implanta-
+enyunderliesdevelopment,tissueregeneration,andnormalho- tionblastocystarehighlyproliferativeandundergorapidcelldi-
+meostaticorganismalfunction.Disruptingthebalancebetween visionbothinthepluripotentstateandupontheinductionofmul-
+self-renewal and differentiation results in a wide range of dis- tilineagedifferentiation.Tissue-residentstemcellsfoundinthe
+eases from developmental disorders to cancer. Accordingly, intestine are maintained in both highly proliferative and more
+stemcellquiescence,proliferation,anddifferentiationarecare- dormant, metabolically quiet states. In other tissue compart-
+fully guarded by factors including niche-derived signals, mentssuchastheskin,muscle,brain,andhematopoieticsys-
+signalingcascades,andtranscriptionalnetworks. tem,typicallyquiescentstemcellpopulationsarerapidlymobi-
+Cellmetabolismisemergingasanadditionaldeterminantof lized in response to normal physiologic cues or in the context
+stem cell function. Cellular metabolic networks are not static, of tissue regeneration. The balance between proliferation and
+butrathercanbetunedtomeetmetabolicdemandsofspecific quiescence will invariably affect the metabolic signatures of
+celltypes.1Proliferatingcellsthatrequirecontinuousduplication differentstemcellpopulations.
+of biomass will necessarily have different metabolic demands Stemcellsmustmakethischoice betweenproliferation and
+fromquiescentcells,whomayrequirelowerlevelsofnucleotide quiescencewhileretainingthecapacitytoformallcelltypesof
+and protein synthesis. Likewise, cells of different lineages will theirrespectivelineage.Thus,themetabolicprogramsthatsup-
+have cell-type-specific functions, which may increase reliance port quiescence or proliferation must be compatible with the
+oncertainmetabolicpathways,orresideinuniquemicroenviron- metabolicprogramsthattunegeneexpressionprogramstocon-
+mentsthatdictatenutrientavailability.Beyondmeetingcellde- trolstemcellfate.Consistentwiththeirroleasreservoirstorepo-
+mands, metabolites also serve regulatory roles, influencing pulate tissue compartments, stem cells also have metabolic
+signalingpathwaysandchromatinmodificationsthatultimately strategiestorespondtocellularstressorsandresistcelldeath.
+modulate gene expression programs. Collectively, cell state, Finally,stemcellsmustoperatewithinandrespondtometabolic
+lineage, and location collaborate to determine the metabolic cuesfromtheirendogenousniche.Alltogether,theseconsider-
+preferencesandrequirementsofagivencell.Underscoringthe ationsensurethatthereisnounifiedformulaforstemcellmeta-
+importance of metabolic fine tuning to meet cell-type-specific bolism;rather,cellmetabolismisharnessedtosupportspecific
+functions,metabolicdysregulationiscausativeindevelopmental needsofdifferentstemcellpopulations.Below,wediscussap-
+pathologies such as inborn errors of metabolism, malignancy, proachesforstudyingstemcellmetabolismandintegraterecent
+andotherdiseases.2 worktogenerateanoverviewofhowmetabolismsupportsfive
+Inthisreview,wewillexaminethehypothesisthateachmajor hallmarksofstemcellfunction.
+functionofstemcells—self-renewal,differentiation,quiescence,
+andsurvivalinthestemcellniche—iscloselytiedtocellmeta- TOOLSFORSTUDYINGSTEMCELLMETABOLISM
+bolism.Asaresult,differentstemcellscanexhibitvastlydifferent
+metabolicfeatures,andmetabolicperturbationscanaffectout- Astechnologicaladvanceshaveimprovedourabilitytoisolate
+comesofspecificstemcellpopulations.Accordingly,thereare andstudystemcellpopulations,numerousstudieshavebegun
+CellStemCell31,February1,2024ª2024ElsevierInc. 161
+ll
+Review
+toexaminemetabolisminthesecells.However,itisimportantto pathway. Direct assessment of metabolic flux requires the
+acknowledgeseveralkeychallengesinstudyingstemcellmeta- tracing of labeled substrates into downstream metabolic net-
+bolism.3 Stem cells are rare cell states that are proportionally workscoupledwithanalysisatsubsequenttimepointsand/orin-
+limitedrelativetotheirdifferentiatedprogeny.Mostmetabolomic formationaboutnutrientconsumptionratestobuildquantitative
+studies require large numbers of cells, which constrains their modelsofmetaboliteusageindifferentbiochemicalpathways.21
+applicationtothesecellpopulations.Whilestemcellscanbeen- Intheabsenceofafullfluxanalysis,tracingwithheavylabeled
+richedfromtissuesbyfluorescence-activatedcellsorting,these substratesallowsfordeterminationofwhichcellularmetabolites
+approachescansignificantlyalterthecellularmetabolome.4,5An arederivedfromagiven(labeled)substrateinvariouscelltypes.
+alternative approach is to isolate cells and then allow them to Labelingpatternsmayalsoprovideadditionalinformationabout
+recover, followed by profiling ex vivo.6 Here, results may be thebiochemicalroutefromsubstratetometaboliteofinterest.22
+confounded by the changing conditions, as tissue-resident Theapplicationoftheseapproacheshasbeenlimitedbytech-
+stemcellidentityandmetabolismarecoupledtotheirphysiolog- nicalchallengesinmostrarestemcellpopulationsinvivo.One
+icalniche,7whichisdifficulttorecapitulateinvitro.Nevertheless, promising approach is to assess isotope incorporation into
+both approaches represent valuable starting points for gener- metabolic endpoints (DNA, protein), as these readouts are
+ating testable hypotheses regarding metabolic pathways that morestableovertimeandlesssusceptibletotheissuesintro-
+maybeactiveorimportantinspecificcelltypes.Geneticorphar- duced duringcell sorting.23 For thesereasons, stem cellsthat
+macologicmanipulationofspecificmetabolicnodesisrequired canbereadilyexpandedinvitrointhepresenceofspecialized
+todistinguishbetweenmetabolicsignaturesthatcorrelatewith media formulations optimized for isotope tracing provide an
+specific cell states (for example, nutrient or pathway prefer- experimentally tractable system for assessing metabolic net-
+ences)fromthosethataretrulyrequiredforestablishingormain- worksduringcellfatetransitions.
+tainingspecificcellidentities. Metabolic measurements are best when complemented by
+While metabolomic studies are limited by cell number, new studiesexaminingthefunctionalconsequencesofmetabolism
+sequencingapproachesallowtheinterrogationofgeneexpres- tostemcellidentity.Amongthemostpowerfulapproachesfor
+sionatthesingle-celllevel.Extensivetranscriptomiccharacter- studyingstemcellmetabolismisthedirectperturbationofmeta-
+izationofstemcellpopulationshasdemonstratedthatmetabolic bolicgenesinspecificstemcellcompartments.Whilealltheap-
+genesaredifferentiallyexpressedinstemcellsrelativetotheir proaches discussed above have utility for studying stem cell
+activated counterparts.8–11 It is critical to note, however, that metabolism,loss-of-functionstudiessuchasthesearepowerful
+levelsofmetabolicgenetranscriptsarenotsufficienttosupport becauseoftheirabilitytoillustratestem-cell-specificmetabolic
+claims regarding metabolic pathway engagement.12,13 Tran- requirements.Totheextentthatdifferentstemcelltypesrequire
+script levels imperfectly predict metabolic enzyme levels,14 as similarmetabolicpathways,theseapproachesallowustodefine
+protein synthesis, post-translational modifications, or turnover commonthemesinstemcellmetabolismandfacilitateourun-
+can each be regulated by separate inputs. Further, metabolic derstandingofhowmetabolismsupportsdifferentcellstatesin
+fluxisoftendrivenbychangesinmetabolitesupplyordemand, bothnormaldevelopmentandtissueregeneration.
+andfluxisnotnecessarilyconstrainedbylevelsofspecificen- Despitethechallengesofstudyingstemcellmetabolism,the
+zymes.15 Finally, in addition to being the driver of increased fieldhasmadeenormousstridesuncoveringgeneralparadigms
+metabolicflux,RNAcanalsosignalacompensatoryresponse forhowmetabolicnetworkssupportspecificstemcellfunctions.
+todecreasedmetabolicpathwayactivity,asforexamplewhen Wedescribebelowaspectsofstemcellmetabolismthatdriveor
+AMPK activates mitochondrial biogenesis in response to enablefivecorehallmarksofstemcellbiology(Figure1).
+compromisedenergyproduction.16
+Howthencanwemeasuremetabolismdirectlyinstemcells? HALLMARK1:METABOLISMSUPPORTSSTEMCELL
+Onepopularapproachhasbeenextracellularfluxassays(EFA), PROLIFERATION
+which measure either the oxygen consumption rate (OCR) or
+extracellular acidification rate (ECAR) of isolated cells and Themetabolicpathwaysthatsupportmammaliancellprolifera-
+requirecomparativelylessstartingmaterialthanothermetabolo- tion have been extensively studied. Much of this work has
+mic measurements. These values can correlate with oxidative beendoneincancercelllines,andtheroleofmetabolismincan-
+phosphorylation and glycolytic activity, respectively, but these cercellproliferationhasbeenreviewedelsewhere.24Likecancer
+valuesarenotabsolutequantificationsofeitherpathwayactiv- cells,akeyfeatureofstemcellsisthecapacityforrapidprolifer-
+ity.17 A high ECAR does not mean a given cell type is purely ation.Bothcelltypeshavethereforeevolvedmetabolicstrate-
+glycolytic and does not engage in oxidative phosphorylation. giestosupportproliferation,manyofwhicharesharedbetween
+Neither pathway occurs in mutual exclusivity from the other; stem cells and cancer cells.25 Continuous cell proliferation re-
+oxidative phosphorylation is dependent on the upper steps of quires a net increase in biomass; accordingly, nutrients must
+glycolysisthatgeneratepyruvatefromglucosetofueltheTCA be taken up and catabolized to generate the building blocks
+cycle.18WhileEFAcanbeusedtoprobedifferentialmetabolic formacromoleculessuchasproteins,nucleicacids,andcellular
+pathwayengagementbetweensamples,careshouldbetaken membranes.Muchworkhasfocusedontheuseofglucoseand
+nottoascribeabsolutemetabolicactivitybasedontheseresults. glutaminetofuelproliferation,asthesearethetwomostabun-
+Moreinformationcanbederivedbydirectlymeasuringmetab- dantnutrientsinmammaliancellculture.However,thespecific
+olites themselves,19,20 though steady-state metabolite levels metabolicpathwaysusedtoacquirenutrientsandmeetcellular
+mustbetakenincontext,asincreasedlevelsofpathwayinter- anabolicdemandscanvarybetweencelltypesandaredynam-
+mediates can indicate increased flux or a block later in the icallyalteredincellulardifferentiation.
+162 CellStemCell31,February1,2024
+ll
+Review
+drivemousePSCsintothenaivestateofpluripotencyreminis-
+S
+pr
+u
+o
+s
+li
+t
+f
+a
+e
+i
+r
+n
+a
+e
+ti
+d
+on
+Quiescence centofthepre-implantationepiblast31;furtherinterventionsare
+required to capture the naive pluripotent state in human
+PSCs.32,33 In general, PSCs cultured in the naive state have
+higherbasalrespirationrelativetotheirpost-implantationcoun-
+terparts,34–37andnaivemousePSCspreferentiallyincorporate
+glucose-derived pyruvate into TCA cycle intermediates.38–40
+Increased respiration enables optimal proliferation in naive
+ESCsandmayevenberequiredforentryintothenaivepluripo-
+Regulation
+of cell fate tent state,36 but the precise outputs of respiration that benefit
+Coping with naive PSCs remain unknown. Notably, high respiration is not
+cellular stress mutually exclusive with aerobic glycolysis: some naive human
+and cell death PSCs also exhibit high lactate production, reflecting overall
+elevatedglucosemetabolismand/oroxidationofadditionalsub-
+stratesinthesecells.34
+Niche requirements As PSCs exit the naive pluripotent state, they transiently
+decrease glucose oxidation in the TCA cycle and increase
+Figure1. Metabolicsupportofstemcellfunctions lactate secretion.34,36,40,41 Accordingly, PSCs mimicking post-
+Whilemetabolismcanvarydramaticallybetweendifferentstemcelltypes, implantationepiblaststatesareglycolyticwithminimalglucose
+severalcommonthemeshaveemergedinstemcellmetabolismthatsupport
+oxidation. This aerobic glycolysis phenotype is reversed upon
+vitalcellularfunctions.Specificmetabolicstrategiessupportstemcellprolif-
+eration(1)andquiescence(2).Metabolismislikewiseinvolvedinstemcell furtherdifferentiation,whichisoftenaccompaniedbydecreased
+responsestocellularstressorsandcelldeath(3).Byinfluencingthedeposition glucose flux through glycolysis and decreased lactate secre-
+orremovalofepigeneticmodifications,metabolismcanalsocontrolstemcell tion.34,41,42Aerobicglycolysisisnotuniversallydownregulated
+fate(4).Stemcellsarealsoinfluencedbythemetabolicrequirementsoftheir
+endogenousniche(5). during differentiation, however; human PSCs maintain high
+glycolytic flux when differentiated to ectoderm, but not meso-
+Aerobicglycolysisandrespiration dermandendoderm.43Aswithstudiesofcancercells,whether
+Glucoseisanessentialnutrientformostcells,asasourceofen- aerobicglycolysisconfersspecificbenefitstostemcellsremains
+ergyandforitsroleprovidingthesugarbackboneandreducing anopenquestion.Certainly,pharmacologicinhibitionofglycol-
+equivalents required for macromolecule synthesis (Figure 2A). ysisimpairsproliferation inseveralPSCmodels.34,44Likewise,
+Glucose is metabolized via glycolysis to form pyruvate, and howsuchmajormetabolicshiftsarecoordinatedisnotfullyun-
+glycolytic intermediates serve key roles in proliferating cells. derstood,althoughseveralpluripotencytranscriptionfactorsare
+Glucose diversion to the pentose phosphate pathway yields directlyimplicatedinmetaboliccontrol.Forexample,OCT4and
+ribose for nucleotide synthesis and/or NADPH. Pyruvate can MYC directly regulate glycolytic genes,43,45 and STAT3 is re-
+enter the tricarboxylic acid (TCA) cycle, where complete com- portedtotranslocatetothemitochondriatoactivatemitochon-
+bustion yields reducing equivalents (NADH, FADH ) that fuel drialgeneexpression.36
+2
+oxidativephosphorylationthrough theelectrontransportchain TherelativedownregulationofglycolysiswithPSCdifferenti-
+(ETC). Nevertheless, most rapidly proliferating cells paradoxi- ation stands in contrast to some tissue-resident stem cells
+cally throw away most of their glucose-derived carbons as whereglycolysisisassociatedwithstemcellactivationanddif-
+lactate,evenwhensuppliedsufficientoxygentosustainTCAcy- ferentiationtoprogenitors.Inhematopoieticstemcells(HSCs),
+cleflux.26Thisprocessofaerobicglycolysis,oftenreferredtoas quiescent HSCs exhibit lower expression of glycolytic genes,
+the‘‘Warburgeffect,’’cannetgenerateonly2moleculesofATP havealowerECAR,andarelesssensitivetopharmacologicin-
+permoleculeofglucose.Aerobicglycolysiswasdiscovered in hibition of glycolysis in vitro.46 As HSCs activate and differen-
+cancer cells and was long considered to be a metabolic quirk tiate, reliance on glycolysis increases. Genetic deletion of
+oftransformedcells.Studiesinstemcellschallengedthismodel, LDHA or the upstream glycolysis enzyme PKM2 decreased
+revealing that many stem cell populations also exhibit aerobic lactate production and compromised hematopoiesis during
+glycolysis,whichappearstobeafeatureofmostrapidlyprolifer- forced hematopoietic system reconstitution in transplantation
+atingculturedcells.18Whyrapidlyproliferatingcellsdiscardcar- assays, without affecting maintenance of homeostatic
+bonaslactateislargelyanopenquestion,althoughrecentevi- HSCs.47 Similarly, deletion of PDK2 and PDK4 or silencing of
+dence indicates that the conversion of pyruvate to lactate via PDK1,whichwouldbeexpectedtopromotemitochondrialpy-
+lactate dehydrogenase (LDH) is favored when the demand for ruvate oxidation at the expense of glycolytic flux, impairs
+NAD+regenerationoutstripsthedemandforATP.27,28 HSC reconstitution capacity.48,49 Importantly, it is unclear
+Given the importance of glucose metabolism, many studies whether these defects observed in glycolysis-deficient HSCs
+haveinvestigatedtheroleofglycolysisandthefateofpyruvate are due to decreased glycolysis or if enhanced pyruvate
+inavarietyofcelltypes.Instemcells,thefateofpyruvate—to oxidation and concomitant increased respiration reduces self-
+be excreted as lactate or burned in the TCA cycle—is closely renewal potential. Increased mitochondrial respiration can
+tiedtocellstate.OneexampleofthisisPSCs,whicharetran- generatereactiveoxygenspecies(ROS)thatimpairHSCfunc-
+scriptionally reminiscent of the pre- or post-implantation tion.50 Consistently, antioxidant treatment decreased ROS
+epiblast,dependingontheirinvitrocultureconditions.29,30The levels and partially rescued bone marrow transplantation in
+addition of inhibitors against MEK and GSK3b is sufficient to LDHA-deficient HSCs, suggesting that decreased oxidative
+CellStemCell31,February1,2024 163
+ll
+Review
+A B
+Figure2. Metabolicpathwayssupportingstemcellproliferation
+Multiplemetabolicpathwaysgeneratethebuildingblocksrequiredforstemcellproliferation.
+(A)Diversesubstratesfuelanabolicreactionsthatgenerateeithermetabolicintermediatesorreducingequivalents(NADPH,NADH,FADH)formacromolecule
+2
+synthesis.Onemajorsubstrateisglucose,whichisconvertedtopyruvatebyglycolysis.PyruvateeithercanbeconvertedtolactatebyLDHanddiscardedfrom
+thecellorcanentertheTCAcyclewhereitisoxidizedandgeneratesreducingequivalentsthatpoweroxidativephosphorylationbytheETC.Regulationof
+oxidativemetabolismiskeytobothPSCandtissuestemcellfunction.PPP,pentosephosphatepathway;SSP,serinesynthesispathway.
+(B)Manycellularoxidationreactions—includingtheoxidationofglucose—requireNAD+asacofactor.Therefore,multiplemetabolicpathwayshaveevolvedto
+regenerateNAD+fromNADH.DifferentialmodesofNAD+regenerationbyeithertheLDHreactionorbycross-compartmentalelectronshuttlesunderliestemcell
+identity.MAS,malate-aspartateshuttle;CMS,citrate-malateshuttle.
+phosphorylation might play a protective role in the stem cell (HFSCs), deletion of MPC1 accelerates the hair cycle and is
+compartment bylimiting ROSproduction.47 accompanied by increased lactate formation consistent with
+Accordingly, activated HSCs have both a higher OCR than higher pyruvate flux through LDHA.57 However, the precise
+quiescentHSCsandexhibitincreasedmitochondrialmembrane mechanismsbywhichMPC1deletionpromotesstemcellactiva-
+potential.46,51,52GlucoseconsumptionandtracingtoTCAcycle tioninthesecelltypes—forexample,whethersuchphenotypes
+intermediatesalsoincreaseswithHSCcommitmenttodifferen- arise from impaired mitochondrial pyruvate oxidation or as a
+tiatedprogenitorsinvivo,supportingamodelwhereHSCdiffer- result of increased usageof pyruvatefor alternative fates—re-
+entiation is accompanied by both increased glycolytic and mainsunknown.
+oxidativepyruvatemetabolism.46,53Despitethisincreaseinpy-
+ruvate oxidation with HSC commitment, blockage of pyruvate Regulationofcofactorredox
+entryintotheTCAcyclebydeletionofPDHA1hadnoeffecton WhydoesitmatterwhethercellsoxidizepyruvateintheTCAcy-
+bonemarrowhematopoieticdevelopment.53Nevertheless,sub- cleorconvertpyruvatetolactatethroughaerobicglycolysis?A
+strateoxidationviatheTCAcyclelikelyremainscritical,asloss majordistinctioncentersonthefateofNAD+,acriticalcofactor
+ofthemitochondrialrespiratorychaincomplexIIIsubunitRieske thatisreducedtoNADHduringcellularoxidationreactionsthat
+iron-sulfurproteinledtoHSCcellcycleexitanddeath.54There- sustaincellproliferation58(Figure2B).Eachmoleculeofpyruvate
+fore,somelevelofmitochondrialrespirationisrequiredforHSC generated from glucose requires the reduction of NAD+ to
+maintenance. NADH. In most rapidly proliferating cells, NADH is converted
+Manipulatingmitochondrialpyruvateentryaltersstemcellac- backtoNAD+vialactatedehydrogenase;accordingly,NAD+de-
+tivityinothertissuecompartments.Themitochondrialpyruvate mandcandriveaerobicglycolysis.27Consistentwiththeroleof
+carrier MPC1 is dynamically regulated in neural stem cells aerobic glycolysis in sustaining stem cell proliferation, loss of
+(NSCs),andinvitroandinvivogeneticablationofMPC1leads LDHA results in delayed HFSC activation during the normal
+to NSC activation.55 Similarly, deletion of MPC1 in intestinal haircycle57andimpairedlong-termbonemarrow transplanta-
+stemcells(ISCs)leadstoincreasedstemcellproliferationinvivo tion byHSCs butnotnormal hematopoietic development.47In
+and in vitro organoid formation.56 In hair follicle stem cells epidermal stem cells in vitro, mitochondrial pyruvate oxidation
+164 CellStemCell31,February1,2024
+ll
+Review
+induces dependence on exogenous serine, as de novo serine developmentandfurtherunderscorethecell-type-specificrole
+synthesisdependsoncytosolicNAD+.59Thesestudiessuggest ofnutrientsassubstratesforgrowthandinputstosignalingpath-
+thatNAD+regenerationmaybelimitingforstemcellsinsettings waysthatregulatecellproliferation.
+ofincreasedmetabolicdemand. Incontrasttoglutamine,whichisdispensablefortheprolifer-
+However, the conversion of pyruvate to lactate is net redox ationofnaivemouseandhumanPSCs,threonineisrequiredby
+neutralasNAD+isrequiredtogeneratepyruvatefromglucose naivemousePSCs.66,67MousePSCsexpresstheenzymethre-
+duringglycolysis.Therefore,additionalroutesofNAD+regener- oninehydrogenase(TDH)whichcatabolizesthreoninetoglycine
+ationarenecessary.Inthemitochondria,amajorrouteforNAD+ andacetyl-CoAtofuelone-carbonmetabolismandtheTCAcy-
+regenerationfromNADHiscomplexIoftheelectrontransport cle.Notably,TDHisuniquelyexpressedinmousePSCsandis
+chain (ETC). Continuous NAD+ regeneration via complex I of considered non-functional in human cells.68 Methionine, an
+theETCsustainspyruvateoxidationinthemitochondria,which essentialaminoacidthatalsosuppliesone-carbonmetabolism,
+generates several molecules of mitochondrial NADH through islikewiserequiredforgrowthofPSCsandmostculturedcells.69
+the reactions of the TCA cycle.26 Cytosolic NADH cannot be As most amino acids contribute to cellular processes beyond
+directly transported into mitochondria; rather, the reducing proteinsynthesis,itislikelythatchangesinuseofmanyamino
+equivalentsaretransferredtometabolitesthat,whenimported acids may accompany stem cell activation and differentiation.
+intomitochondria,reduceNAD+toNADHtocompletetheeffec- Howcellsacquireandconsumeaminoacids,andwhetherthis
+tive electron transport. Such ‘‘electron shuttles’’ coordinate is tied to proliferation of specific stem cell compartments, is
+cross-compartment metabolic communication and include the largelyunexplored.
+glycerol3-phosphateshuttle,themalate-aspartateshuttle,and Otherfuelsourcessuchaslipidscansupportcellgrowthby
+thecitrate-malateshuttle.60 directlycontributingtolipidpoolsrequiredforcellmembranes
+DespitetheimportanceofcytosolicNAD+regeneration,rela- orbyservingasafuelsourcetosupportcellularbioenergetics.
+tively little is known about how electron shuttles are regulated Exogenous lipids are readily acquired by PSCs,70 and lipid
+indifferentcelltypes.Recentstudiesdemonstratedthatthecit- availability can influence PSC fate, in part by controlling
+rate-malateshuttleisengagedinbothcancercelllinesandPSCs signaling pathways.71 De novo lipid synthesis is especially
+inculture.40InPSCs,citrate-malate-shuttleutilizationincreases important for culture of cells in serum-free formulation, as
+duringtheexitfromnaivepluripotency,andlossofcitrate-malate serum provides a robust source of exogenous lipids.70 Even
+shuttle activity is incompatible with differentiation.40 Compo- in vivo, de novo lipid synthesis is critically important in certain
+nentsofthecitrate-malateshuttlearealsorequiredforhemato- stem cell populations, highlighting the importance of biosyn-
+poieticregenerationfollowingmyeloablation61andpromotethe thetic pathways to support stem cell expansion.72 Fatty acids
+osteogeniccapacityofmesenchymalstemcellsexvivo.62These are also consumed as fuel for metabolic networks, notably in
+studiesraisethepossibilitythatthemethodofNAD+regenera- HSCs and ISCs where fatty acid oxidation is required for
+tionmightplayacriticalroleinsupportingstemcellproliferation stem cell maintenance and self-renewal in vivo.73,74 Consis-
+oridentity. tently, deletion or pharmacologic inhibition of CPT1a—the
+rate-limiting enzyme in fatty acid oxidation—impairs stem cell
+Substratepreferences maintenance in these compartments.73,74 Whether fatty acid
+While considerable attention has been given to glucose, other oxidationplaysakeybioenergeticroleorprovidesothersignals
+substratesalsocontributeasmajorenergysourcestofuelmeta- to promote stem cell function remains to be determined. All
+bolic pathways for cellular anabolism. For example, glutamine together,thesestudiesdemonstratethatstemcellsindifferent
+oxidationisamajorsourceofTCAcycleintermediates,support- statesofself-renewaloractivationcandramaticallyrewiretheir
+ingbothfuelingrespirationandgeneratingthemetabolicprecur- substratepreferences,andfutureworkwillaimtounravelwhat
+sorsrequiredtosupportcellgrowthinvitro.60Notsurprisingly, specifiesthesubstratepreferences ineachcellstateandhow
+glutaminesupplementationisrequiredfortheinvitrocultureof thesemetabolicpreferencescontributetofunctionaloutcomes
+almost all mammalian cells.63,64 A notable exception to this ofdifferent stemcell populations.
+rule is naive PSCs, which can proliferate in the complete
+absence of exogenous glutamine.33,38,39 This glutamine inde- HALLMARK2:METABOLICADAPTATIONSDURING
+pendence is enabled by reduced glutamine catabolism: cells QUIESCENCE
+cultured in the ground state of naive pluripotency incorporate
+lowerlevelsofglutamineintoTCAcycleintermediates,allowing In addition to supporting the demands of cellular proliferation,
+cellstomaintainproductionofkeybiosyntheticintermediatesin metabolism can support the maintenance of non-dividing
+the absence of exogenous glutamine.38 Because naive PSCs stem cell states. Many tissue stem cells undergo periods of
+withthehighestself-renewalreducedependenceonexogenous quiescence, which is defined as temporary cell cycle exit into
+glutamine,glutaminewithdrawalselectsfornaivePSCswiththe theG statethatcanbereversedinresponsetoexternalstim-
+0
+highestpropensityforself-renewalwithinaheterogeneouspop- uli.75 Tight control over quiescence is critical for normal stem
+ulationofPSCs.39LikemorecommittedhumanPSCs,thedevel- cell homeostasis, and inappropriate proliferation can lead to
+opingmesodermandendodermcontinuetorelyonglutamineas exhaustion of the stem cell compartment. While the definition,
+ametabolic substrate, butthe developing ectoderm does not; transcriptional regulation, and cellular function of quiescence
+rather,glutamineservesasasignaltoactivatemTORC1-depen- can vary considerably among different tissue stem cell
+dentdifferentiationinthislineage.65Theseresultsillustratethe types,76,77 several common metabolic features of quiescent
+large changes in nutrient preferences that accompany PSC cellshave emerged.
+CellStemCell31,February1,2024 165
+ll
+Review
+A B
+AUTOPHAGY /
+METABOLIC MITOPHAGY
+Lysos
+o
+GENE EXPRESSION m
+gosome e
+a
+glc h
+p
+GLYCOLYSIS o
+tu
+A
+METABOLIC pyr lact TFEB
+PATHWAY FLUX TFE3
+ATG5 ATG7
+ATG12 LAMP2A
+OXPHOS TCA
+LYSOSOMAL
+ETC
+amino BIOGENESIS
+ROS acids
+H 2 O O 2
+PROTEIN
+SYNTHESIS
+Figure3. Metabolicstrategiestosupportstemcellquiescence
+Cellcycleexitinquiescenceissupportedbyspecificmetabolicrewiring.Decreasedmetabolicdemand(A)isachievedbyalteredmetabolicgeneexpression,
+decreasedmetabolicpathwayflux,andanoverallreductioninmetabolicoutputssuchasproteinsynthesis.Inconcertwithdecreasedmetabolicdemand,
+increasedcellularrecyclingprocesses(B)suchasautophagyandlysosomalbiogenesisliberatemetabolitestosupportcellularbioenergeticsandconstrain
+mitochondrialrespirationviamitophagy.
+Lowermetabolicactivity lossofthemitochondrialfusionproteinOPA1causespremature
+Consistentwithcellcycleexit,quiescencehashistoricallybeen MuSCactivationanddepletionfromthestemcellpool.79These
+consideredametabolicallyinertstate,wheredecreasedcellular studiessuggestthatalteredmetabolicactivitynotonlyaccom-
+proliferation is thought to be accompanied by decreased de- paniesquiescencebutmightplayaregulatoryroleinitsmainte-
+mandfortheproductsofanabolicmetabolism(Figure3A).Early nance, although the specific metabolic trigger(s) that control
+evidencefortheconceptofmetabolicquiescencewasderived quiescenceremaintobedetermined.
+fromsequencingstudiesthatprofiledquiescentversusactivated Whichmetabolicoutputsaretrulyreducedduringquiescence
+stemcellsacrossmultipletissuetypes.78Quiescentstemcells islargelyanopenquestion,butmanystudiespointtoreduced
+consistentlyshowalteredexpressionofgenesinvolvedinmulti- proteinsynthesisasacommonfeatureofquiescentstemcells.80
+ple metabolic processes relative to their proliferative counter- Decreased translation—among the most costly bioenergetic
+parts.8–11 In NSCs specifically, quiescence is marked by high cellular processes—has been observed in PSCs,81,82 HSCs,83
+expression of glycolytic and fatty acid oxidation genes that NSCs,84 HFSCs,85 and MuSCs.86 Across these cell types, the
+aredownregulateduponactivationwithaconcomitantincrease specific benefit of low translation for quiescence remains un-
+in mitochondrial and oxidative phosphorylation gene sig- clear.80However,forcedproteinsynthesisbygeneticperturba-
+natures.10,11 tions causes stem cells to exit quiescence and activate at the
+Whilenumerousstudieshavenotedshiftsinmetabolicgene expense of self-renewal, leading to the eventual depletion of
+expressionduringtheacquisitionofandexitfromquiescence, thestemcellpool.83,85,86Conversely,decreasedproteinsynthe-
+relative few studies have functionally characterized metabolic sisiscompatiblewithHSCmaintenancebutpreventsHSCacti-
+changesbetweenthesestates.Technicalchallengesinisolating vationandregenerativecapacity.83Thesestudiesillustratehow
+sufficient volumes of quiescent stem cells for metabolomic synchronicityofcellularfunctionswithmetabolicstateiscritical
+studieshavelimitedtheirinterrogation.Experimentsperformed for stem cell maintenance, and it will be interesting for future
+in HSCs have confirmed that quiescence is accompanied by studiestoinvestigatewhetherchangesinproteinsynthesisare
+low mitochondrial activity and low reliance on glycolysis upon sufficient to explain metabolic quiescence or if depression of
+ex vivo culture in this lineage.46 Genetic interventions that in- othermetabolicprogramsislikewiserequiredformaintenance
+creasemitochondrialsubstrateoxidationresultincellcycleacti- ofquiescentstemcells.
+vationinvivoandlossofHSCquiescence.48Paradoxically,de- Incontrasttoadultstemcellsthatalternatebetweenperiods
+letinganessentialsubunitofETCcomplexIIIalsoleadstoloss of quiescence and activation, embryonic stem cells capture a
+of HSC quiescence in vivo.54 In muscle stem cells (MuSCs), developmentallytransientstateinwhichepiblastcellsundergo
+stemcellactivationisaccompaniedbymitochondrialfragmenta- a single period of rapid development to form the developing
+tionandelevatedmitochondrialROSproductionthattriggerscell blastocyst—aprocessthatcanbereversiblyhaltedduringem-
+cycle entry. Accordingly, excessive fragmentation via genetic bryonicdiapause.87Diapausedembryosarethoughttoexhibit
+166 CellStemCell31,February1,2024
+ll
+Review
+lower usage of metabolic pathways, consistent with a more reversed upon antioxidant treatment, implying that autophagy
+quiescent state.87 However, specific metabolic changes in constrainsoxidativestressinISChomeostasis.
+diapausearepoorlycharacterized,andopposingstudieshave Anemergingquestionishowautophagiccargoareselectively
+reportedbothincreasedanddecreasedglycolysis88,89andfatty targeted for degradation to maintain stem cell quiescence. In
+acidoxidation.88,90Diapausedembryosarereportedtoincrease chaperone-mediatedautophagy,phosphorylatedoracetylated
+reliance on lipid droplets91 and autophagy92 for survival, sug- aminoacidmotifsmarkspecificproteinsforlysosomaldegrada-
+gestingapotentialchangeinsubstratepreferencesduringthis tion.Abrogationofchaperone-mediatedautophagybydeletion
+cellstate.Importantly,manyofthecuesthatregulatediapause ofLAMP2AinHSCsinvivoresultsinthebuildupofdysfunctional
+in embryos are metabolic. Reductions in polyamine levels can proteins involved in glycolysis and fatty acid oxidation.102
+delayblastocystimplantation93andglucosewithdrawaldelays Consequently, LAMP2A-deficient cells are unable to increase
+thereentryfromdiapause,94buthowthesenutrientsfluctuations glycolytic activity and lipid metabolism upon HSC activation
+are communicated to the embryo to dictate cell fate remains andareunabletorepopulatethebonemarrowfollowingmyeloa-
+unclear. blation and in serial transplantation.102 In PSCs, chaperone-
+Given the technical limitations of studying embryonic meta- mediatedautophagyincreaseswithPSCdifferentiationandtar-
+bolism in vivo, considerable effort has gone into developing getsmitochondrialproteinstosuppresspluripotency.103
+in vitro models of diapause-like states. Two distinct ap- AutophagyisalsorequiredinMuSCactivationexvivo,whereit
+proaches—inhibitionofthetranscriptionfactorMYCandinhibi- has been proposed to provide the nutrients necessary for
+tionofmechanistictargetorrapamycin(mTOR)—aresufficient increasedanabolicdemands.104Additionalinvivostudieshave
+to induce the reversible pausing of cultured PSCs.95,96 Tran- demonstrated that ATG7 is required for maintenance of the
+scriptionally,thesepausedPSCsresemblediapausedepiblasts quiescentMuSCpoolbypreventingMuSCsenescence,105sug-
+and share common features of diapause including decreased gestingthatautophagylikelyplaysmultiplerolesevenwithinthe
+transcription,RNAsplicing,andproteinsynthesis.Whilemodu- same stem cell population. Interestingly, autophagy has been
+lation of these pathways is sufficient to induce diapause-like showntodeclinewithage,anddecreasedlevelsofautophagy
+states,97whetherendogenousregulationofthesepathwaysreg- might contribute to the reduction in tissue stem cell activity
+ulatesdiapauseindevelopingembryosremainsunclear.96Alto- seen with aging. Across multiple tissues, autophagy-deficient
+gether,theseorthogonalexvivopausingstrategieshaveyielded stem cells share features with their older normal counter-
+considerableinsightintothebiologyofdiapause,andthedevel- parts,99,102,105 reflecting shared biology between autophagy
+opmentofothersystemswilllikelyincreaseourunderstandingof lossandagingandsuggestingthataugmentationofautophagic
+thisuniquemetabolicstate. pathways might be beneficial for the function of these cells
+withaging.
+Increasedautophagy
+Regulation of macromolecule synthesis is balanced with Lysosomalbiogenesis
+cellular catabolism (Figure 3B). In addition to decreased Lysosomes—the end destination of autophagic cargo—are an
+expression of metabolic genes, quiescent stem cells have additionalpointofmetabolicregulationinquiescentstemcells.
+higherexpressionofgenesinvolvedinautophagy.78Autophagy QuiescentHSCshavehighernumbersofenlargedlysosomes46
+is a process of intracellular ‘‘self-eating’’ that targets cyto- andincreasednuclearlocalizationofthelysosomalbiogenesis
+plasmiccargotothelysosomefordegradation.Inquiescence, transcription factor TFEB.106 TFEB overexpression in HSCs
+autophagy—whileincompatiblewithnetbiomassgeneration— ex vivo is sufficient to impose a pro-lysosomal transcriptional
+mightliberatenutrientsthatallowcellsurvivalwhileinameta- program that restricts HSC cell division.106 Conversely, TFEB
+bolicallylow orisolated state.Similarly,autophagycan beuti- knockdownincreasednumbersofcyclingHSCsanddecreased
+lized by non-dividing cells to remove dysfunctional organelles HSCengraftmentintransplantationassays.106Lysosomalactiv-
+or cellular debris that might otherwise be passed along to ityinHSCsisadditionallyregulatedbyasymmetriccelldivision.
+dividingprogeny. Increased lysosomal inheritance by daughter cells correlates
+Thebestexaminationofautophagyinquiescencearestudies withlowermitochondrial membranepotentialand quiescence,
+wherecomponentsoftheautophagosomearegeneticallyper- anddaughtercellsthatinheritfewerlysosomesaremorelikely
+turbed in the stem cell compartment. Conditional loss of the todifferentiatetoprogenitors.107Whilethemechanismbywhich
+essentialautophagygeneATG7inthefetalhematopoieticsys- lysosomes promote HSC quiescence remains unclear, these
+tem led to decreased numbers of HSCs that were unable to studiessuggestthatonefunctionoflysosomesinHSCsmight
+reconstitute the hematopoietic compartment.98 Loss of auto- be to restrict levels of metabolic proteins or organelles that
+phagy in adult HSCs by deletion of ATG12 likewise impaired enabledifferentiation;alternatively,lysosomesserveassignaling
+HSCself-renewalandregenerativecapacity.99Inbothsettings, hubs108andinthisregardmaydirectlycontrolstemcellfate.
+defective autophagy led to mitochondrial accumulation and QuiescentNSCsaresimilarlycharacterizedbyenlargedlyso-
+increased oxygen consumption, suggesting that one role of somes that actively degrade protein aggregates.109,110The in-
+autophagyinHSCsismitochondrialclearancethroughmitoph- ductionofNSCquiescenceisaccompaniedbyincreasedlyso-
+agy to constrain metabolic capacity. Similar phenotypes were somalproteolysis;conversely,inhibitinglysosomalacidification
+observed upon loss of ATG5100 or ATG7101 in ISCs. Auto- leadstotheaccumulationofproteinaggregatesandNSCprolif-
+phagy-deficient ISCs have increased levels of ROS, undergo eration.109,110 Expression of the lysosomal biogenesis factor
+higherlevelsofapoptosis,andhaveimpairedregenerationca- TFEB ex vivo led to NSC quiescence and decreased levels of
+pacity following irradiation. These phenotypes were partially proteinaggregates.109,110
+CellStemCell31,February1,2024 167
+ll
+Review
+Figure4. Stemcellresponsestocellularstress
+Stemcellshavedistinctresponsestocellularstress.WhilePSCsareresistanttocelldeath,tissuestemcellpopulationshaveincreasedpropensityforcelldeath
+ordifferentiationinresponsetoexternalstressors.Stemcellsalsohaveincreasedrelianceoncellulardetoxificationandantioxidantpathways.Activationofthe
+integratedstressresponsehasalsobeenlinkedtostemcellfunctionanddysfunctioninnormaldevelopmentanddisease.
+High lysosomal activity also defines naive PSCs; here, lyso- diation.Low-dose(0.5Gy)irradiationinducesapoptosisofE6.5
+somalactivitylicenseshydrolysisofextracellularproteinanden- embryos,butnottheirpre-implantationcounterpartsthathave
+ablesaminoacidindependence.111Suggestively,theTFEBho- notyetbegungastrulation.119Thisdifferentialresistancetocell
+molog TFE3 is sufficient to trap PSCs in the naive, ground deathhasalsobeenobservedinPSCsincultureandextended
+stateofpluripotency,112,113althoughthedegreetowhichtheef- to other cellular stresses. For example, loss of microRNAs,
+fectofTFE3onPSCfaterequireslysosomalhydrolysisorinduc- oxidativestress,andendoplasmicreticulum(ER)stressalllead
+tionofquiescence-likefeaturesremainstobedetermined.While to apoptosis induction in EpiSCs but not in their naive coun-
+theprecisebenefitofincreasedautophagicandlysosomalfluxis terparts.120,121
+likely context specific, these studies demonstrate the impor- Theseresultshaveledtothehypothesisthatembryonicdiffer-
+tanceofcellulardegradationpathwaysinmaintainingthequies- entiation is accompanied by state-specific propensity for cell
+centstateandduringstemcellactivation. death.HumanPSCswhichinvitroaremaintainedinaprimed,
+post-implantation-likestatearemoresensitivetoDNAdamage
+HALLMARK3:RESISTANCETOMETABOLICSTRESS and ER stress than differentiated cells.122,123 Consistently, the
+ANDCELLDEATH PSCstagewiththehighestprimingforcelldeathcorresponds
+to the embryonic stage where apoptosis occurs,118 illustrating
+Metabolic supportofcellsurvivalandproliferation isbalanced the utility of cell culture models to interrogate key regulatory
+with tight metabolic control of cell death.114 As reservoirs for stepsduringnormaldevelopment.Asapoptosisistightlylinked
+tissue regeneration in settings of injury, stem cells must be to mitochondrial permeabilization and caspase activation,124
+able to withstand some degree of cellular stress. Strikingly, several studies have examined the role of mitochondrial dy-
+viabletissuestemcellscapableofengraftmenthavebeeniso- namicsinPSCs.NaivePSCshavehigherexpressionmitochon-
+lateduptofourdayspostmortem,115suggestingthatstemcells drial fusion regulator DRP1, and loss of DRP1 is sufficient to
+areuniquelypositionedtoresistexternalstressors.Atthesame lowertheapoptoticthresholdinthesecells.Conversely,overex-
+time, precautions are taken to ensure defective stem cells do pression of DRP1 can inhibit apoptosis at baseline and in
+notcontributetotheprogenitorpoolandsoappropriatecontrol responsetoendoplasmicreticulumandoxidativestressindiffer-
+of cell death programs is critical for normal development and entiatingPSCs.121Mitochondrialdynamicsthereforemightnot
+tissue homeostasis.116 The diverse strategies that govern onlysupportbioenergeticsbutalsoplayanimportantroleinpro-
+stem cell responses to stress are an area of active inquiry motingPSCresistancetostress.
+(Figure 4). In contrast to PSCs that represent transient developmental
+states, tissue stem cells function over organismal lifetimes
+Regulationofcelldeath and must guard against accumulation of damaged organelles
+RapidproliferationinPSCsisbalancedwithtightcontrolofcell or compromised genetic integrity. Accordingly, tissue stem
+deathpathways.Inthedevelopingmouseembryo,theepiblast cells often exhibit increased propensity for cell death relative
+cellnumberincreases100-foldfromE5.5toE7.5.117Concomi- to their more committed counterparts. For example, following
+tantly,largenumbersofcellsareeliminatedthroughapoptosis irradiation, HSCs exhibit higher levels of apoptosis than he-
+at E6.5.118 This induction of cell death with differentiation has matopoietic progenitors.125 Enforced oxidative DNA damage
+beenfurtherstudiedinconnectionwithsensitivitytoionizingra- or ER stress similarly reduced HSC proliferation and viability
+168 CellStemCell31,February1,2024
+ll
+Review
+relativetomoredifferentiatedcells.126,127Inresponsetooxida- EmergingevidencesuggeststhattheISRmightmaintainstem
+tive stress, MuSCs fuse with proximal myofibers, thereby cellstateindependentofcellularstressors.Whilemoststudiesof
+removingdamagedMuSCsfromthestemcellcompartment.128 theISRhavefocusedontranscriptionfactorssuchasATF4or
+Stemcells also cope with damage and exit the stem cell pool CHOPthatmediatecellsurvival,ISRactivationcanleadtoselec-
+through differentiation. In the epidermis, differentiation is a tive translation of additional proteins with uORFs that have
+common response to stresses such as UV radiation or onco- known functions instem cells.86,137Theseincludethe pluripo-
+gene expression.129–131 Similarly, ER stress in ISCs both tencytranscriptionfactorsNANOGandMYCthatdemonstrate
+in vitro and in vivo led to stem cell differentiation with increased levels in PSCs following eIF2⍺ phosphatase inhibi-
+decreased expression of normal ISC markers.132 These re- tion.138 Collectively, these studies suggest that ISR activation
+sponses allow for maintained barrier function while preserving mayberheostatic,whereabasallevelofISRsignalingmaintains
+theintegrityofthestemcellpool.Inthismanner,metabolicin- stemness but in the setting of cellular stress is maladaptive.
+terventions that alter stem cell survival or differentiation in Futureexplorationiscriticaltobetterunderstandhowstemcell
+response to stress could result in long-term adverse conse- metabolism controls ISR engagement to selectively activate
+quencesfororgan function. thesedisparatepathwaysanddictatecellularoutcomes.
+Integratedstressresponse Antioxidantanddetoxificationpathways
+Variouscellularstressesconvergeoncommonresponsepath- Stemcellshaveadditionalstrategiestodirectlymitigateendog-
+ways. One such pathway is the integrated stress response enous toxic metabolites and preserve the stem cell state.
+(ISR),whichrespondstoconditionssuchasimpairedproteosta- Perhapsthemoststudiedofthesemetabolitesarereactiveoxy-
+sis, nutrient deprivation, mitochondrial dysfunction, viral infec- gen species (ROS), which are oxygen-containing free radicals
+tion, and oxidative stress.133 ISR activation is initiated by thatinexcesscanbecytotoxic.ROSareadirectbyproductof
+specializedkinasesthatactassensorsfordiversecellularpath- cellmetabolism,andtheroleofROSinstemcellmaintenance
+waysincludingmetabolismbyphosphorylatingthealphasubunit and differentiation has been extensively reviewed.141–143
+of eukaryotic factor 2 (eIF2⍺) to either promote cell survival or Notably, alterations in ROS levels cause both failure of stem
+facilitate cell death in the event of unmitigable cellular stress. cell self-renewal and impaired differentiation, suggesting that
+Recent studies have identified specific pathways that relay tightregulationofROSiscriticalforstemcellfunction.
+mitochondrial stress via the ISR to trigger adaptive cell re- BecauseROScanbegenotoxic,manystemcellpopulations
+sponses.134,135 moderateitsproductiontoensuregeneticintegrityinnaivepro-
+WhiletheISRhasbeeninvestigatedextensivelyincancerand genitors.AnexampleofthiscanbeseeninPSCs,wherediffer-
+neurodegenerativedisease,lessisknownaboutISRfunctionin entiationisaccompaniedbyanincreaseinoxidativemetabolism
+stemcells,133thoughnumerousstudieshavedemonstrateddif- andROSlevels.144Similarpatternsofincreasingoxidationwith
+ferencesinISRactivationacrossstemcellstates.Inthehemato- commitment are seen in HSCs, where ROS levels increase
+poietic system, increased basal ISR activity in HSCs leads to with progenitor commitment and cells with low ROS have the
+apoptosis downstream of PERK activation and ATF4 transla- highest potential for self-renewal in serial transplantation as-
+tion.127 HSCs exhibited higher expression of an ATF4 reporter says.145 Mitochondrial ETC complexes I and III are a major
+thantheirdownstreamcommittedprogenitors,andATF4hicells source of ROS production in mammalian cells; therefore,
+had increased engraftment in transplantation experiments.136 decreased electron deposition into the ETC is one method of
+Similar results were seen in E4.5 pre-implantation epiblast controllingcellularROSlevels.Notsurprisingly,increasedROS
+cells,137 in naive PSCs,138 and in MuSCs,86 which all exhibit levels are correlated with increased respiration and stem cell
+highlevelsofp-eIF2⍺thatdecreasewithdifferentiation.ISRacti- dysfunctioninavarietyofgeneticmodels,andantioxidanttreat-
+vation not only tracks with stemness but can play a causative mentrescuesstemcelldefectsseeninsettingsofalteredrespi-
+role. Replacement of the phosphorylated serine residue in ration.47,100,101,146
+p-eIF2⍺ by a non-phosphorylatable alanine residue impaired In contrast to HSCs where increasing ROS correlates with
+PSC proliferation and pluripotency upon removal of factors reduced self-renewal, increasing ROS in NSCs correlates with
+that maintain the naive state.137 Similarly, inhibition of the stemcellproliferationinvivo,andsupplementationoflowlevels
+eIF2⍺ phosphatase GADD34/PP1 promotes both PSC137 and ofROSbooststhecapacityofNSCsforinvitroneurospherefor-
+MuSCself-renewal.86 mation.147 Similarly, treatment with the mitochondria-targeted
+Conversely,inISCsp-eIF2⍺isinverselycorrelatedwithstem antioxidant ubiquinone was toxic to both PSCs and NSCs.146
+cellsmarkersandtheISRisinduceddownstreamofERstress These results fit a growing theme that while high ROS levels
+upon differentiation to transit-amplifying cells.132 Additionally, canbetoxictostemcells,moderatelevelsofROSarenecessary
+theISRistransientlyupregulatedinlungdevelopmentbutcan forproliferationanddifferentiation.Insupportofthismodel,anti-
+alsobepathologicallyactivated bylossofmitochondrialcom- oxidant treatment blocks differentiation in multiple stem cell
+plex I,139 suggesting that metabolic pathways may act to types.148,149
+constrain the ISR in homeostatic conditions. Experiments in Endogenous antioxidant systems also play critical roles in
+myoblasts and differentiated myotubes in vitro further demon- stemcellbiology.Onepathwaythathasreceivedconsiderable
+stratedthatthemetabolicstressorsthatleadtoISRactivation attention is the FOXO transcription factors, which have evolu-
+vary according to cell state.140 Therefore, the pathways that tionaryconservedfunctionsinregulatingROSlevels.150Condi-
+trigger ISR activation in different stem cells are likely highly tional deletion of one or more FOXO transcription factors is
+contextdependent. pathogenic in multiple stem cell types including PSCs,151
+CellStemCell31,February1,2024 169
+ll
+Review
+HSCs,152–154NSCs,155–157andMuSCs.158Acrossthesestudies, of pluripotency, glucose-derived citrate is largely retained in
+lossofFOXOcorrelateswithincreasedROSlevelsanddefective themitochondriaandlossofACLhasmodesteffectsonoverall
+stem cell function. However, the mechanisms by which FOXO levelsofhistoneacetylation.40Uponexitfromthenaiveground
+regulatesROSinstemcellsremainsunclear.FOXOtranscription state,mitochondrial-derivedcitratebecomesamajorsourceof
+factors can transcriptionally regulate antioxidant enzymes and cytosolic acetyl-CoA and loss of ACL consequently impairs
+DNA damage response pathways.150 Other studies in HSCs H3K27andH4K16acetylation.Providingexogenousacetateto
+havedemonstratedthatlossofFOXO3canaffectmitochondrial boostacetyl-CoAproductionpromotedhistoneacetylationand
+metabolism,eitherthroughautophagy159orthroughregulation delayeddifferentiationinbothhumanandmousePSCs.40,44In
+of mitochondria.160 It is reasonable to hypothesize that FOXO mouse PSCs, threonine also contributes to acetyl-CoA pools
+andother antioxidantpathwayshavespecific rolesin different duetouniqueexpressionoftheenzymethreoninedehydroge-
+stem cell types, and their dysregulation plays a role in stem nase.66 ACL-derived acetyl-CoA is likewise required for adult
+cellagingordisease.Totheextentthatbothantioxidantsand stemcells.Inadipocytedifferentiationinvitro,silencingofACL
+toxic metabolites are the products of metabolic reactions, the leads to lower levels of pan-histone acetylation, altered gene
+specific metabolic preferences of stem cells almost certainly expression,anddiminishedlipidaccumulation.164Similareffects
+affectboththepropensityforROSgenerationanddetoxification, were seen in myoblasts, where ACL knockdown resulted in
+providing an additional link between metabolic networks and reducedhistoneacetylationattheMYODpromoterandimpaired
+stemcellfate. differentiation to myotubes.167 Collectively these studies indi-
+cate that changing availability of cytosolic acetyl-CoA can link
+HALLMARK4:METABOLICCONTROLOFSTEMCELL metabolicpathwayswithgeneexpressionprogramsinavariety
+FATEVIAEPIGENETICMODIFICATION ofstemcellpopulations.
+Histoneacetylationturnsoverrapidly,168butdeacetylationby
+Inadditiontomeetingthedemandsofproliferationandresisting asubsetofHDACsmayalsobesubjecttometabolicregulation.
+cellularstressors,stemcellsmustretainthecapacityfordiffer- OneclassofHDACsisthesirtuins,afamilyofNAD+-dependent
+entiation. Stem cell differentiation is principally controlled at deacylases that cleave NAD+ as they remove acyl groups
+theleveloftranscription,wherecellstatetransitionsarecoordi- includingacetylmoitiesfromvariousproteins.169Whileseveral
+natedbytheactivityofchromatinremodelersandthebindingof sirtuins have demonstrated roles in stem cell function,169 it is
+lineage-specific transcription factors. Notably, metabolites are less clear whether changes in cellular NAD+ levels contribute
+the chemical precursors for post-translational modifications of tocellfatecontrolbymodulatingsirtuinactivity.Moreconven-
+histones and nucleic acids. This link between metabolites and tional HDACs can be inhibited by metabolites such as ketone
+chromatinhasledtothehypothesisthatmetabolicfluctuations bodies,providinganadditionalmechanismbeyondacetyl-CoA
+can alter the distribution of chromatin and DNA modifications. availabilityformetabolismtoalterhistoneacetylation.InISCs,
+In this scenario, metabolites serve not just as substrates for expression of the enzyme HMGCS2 controls levels of b-OHB
+growthorviability,butalsoassignalsthatinfluencegeneexpres- which acts as an HDAC inhibitor to reinforce ISC self-renewal
+sionprogramstoaltercellfate.141Whilethishypothesishasbeen programs,170 raising the possibility that changes in ketone
+interrogatedinarapidlygrowingbodyofliterature,particularlyin bodymetabolismmayaffectavarietyofstemcellpopulations.
+thefieldofcancermetabolism,25,161fewerstudieshaveexam- Indeed, many intracellular metabolites have the potential to
+inedmetabolicandepigeneticcrosstalkinstemcells. impacthistoneacetylation:HATscanuseavarietyofacyl-CoA
+substrates, often in proportion to their cellular abundance.171
+Histoneacetylation Although we lack a clear picture of how cells control levels of
+Acetylation is a ubiquitous post-translation modification that variousacyl-CoAspeciesandhowcompetitionforHATsaffects
+decorateshistonesandisassociatedwithincreasedchromatin geneexpressionoutcomes,theabilityofmultiplemetabolicin-
+accessibility and active genetranscription.162Histone acetyla- termediatestomodulatehistoneacylationprovidesanotherpo-
+tion is catalyzed by histone acetyltransferases (HAT) that use tentialavenueforcellstolinknutrientabundanceandmetabolic
+themetaboliteacetyl-CoAasanacetyl-donor.163Acetyl-CoAis networkswithcellfatecontrol.
+generated by numerous pathways in the cell, including mito-
+chondrial oxidation of glucose, amino acids, and fatty acids HistoneandDNAmethylation
+(Figure5A).Thispoolofacetyl-CoAcannotdirectlyexitthemito- Histonescanadditionallybemodifiedbymethylationofspecific
+chondria; rather, acetyl-CoA produces citrate that when ex- lysine or arginine residues, each of which has been
+portedfrommitochondriaiscleavedbyATP-citratelyase(ACL) shown to have unique effects on transcriptional activity.172
+inthecytosol,yieldingacetyl-CoAforacetylationanddenovo Methylation is linked to nutrient availability through levels of
+lipid synthesis.164 Cytosolic acetyl-CoA can also be directly S-adenosylmethionine(SAM),theuniversalmethyldonorforen-
+generatedfromacetateviatheactionofacytosolicacetyl-CoA zymes that transfer methyl groups to target substrates173
+synthetase (ACSS2). Cells can still generate some cytosolic (Figure 5B). In most cells, methionine is the major
+acetyl-CoAeveninthecompleteabsenceofACLandACSS2, source of SAM, but serine and glycine metabolism can also
+likely via mitochondrial carnitine shuttles and/or peroxisomal generate one-carbon units that fuel SAM regeneration from
+metabolism,165,166underscoringthedeepredundancyofmeta- S-adenosylhomocysteine(SAH).174Fluctuationsineachofthese
+bolicnetworksinmammaliancells. pathwaysareproposedtoalterSAMlevelsanddownstreamhis-
+Thesource of cytosolic acetyl-CoA has been shown to vary tone or DNA methylation in diverse cell types, including PSCs
+with cellular state. In PSCs cultured in the naive ground state that must maintain a globally hypomethylated landscape prior
+170 CellStemCell31,February1,2024
+ll
+Review
+A
+B
+Figure5. Metabolic-chromatincrosstalkinstemcells
+Metabolitesformthechemicalmodificationsthatdecoratechromatinandcanregulatetheactivityofmanychromatin-modifyingenzymestoregulatestem
+cellfate.
+(A)Cytosolicacetyl-CoAistheacetyl-donorforhistoneacetyltransferasesandislargelygeneratedeitherfrommitochondriallyderivedcitratebyACLorfrom
+acetatebyACSS2.KetonebodiessuchasBHBhavebeenshowntoinhibithistonedeacylases.
+(B)MultipleaminoacidscancontributetocellularpoolsofSAM,themethyldonorforhistoneandDNAmethylationbymethyltransferases.Demethylationis
+carriedoutbythefamilyof⍺-KG-dependent-dioxygenases.Cellularlevelsof⍺-KGinfluencedioxygenaseactivitythroughitsroleasaco-substrateforde-
+methylationreactions.AscorbateisacofactorthatpromotestheactivityoftheTETenzymesthatiterativelyoxidizemethylatedcytosinesinDNAgenerate
+5-hydroxymethylcytosine(5hmC)oritsoxidizedderivatives(5-formylcytosineor5-carboxycytosine)thatareintermediatesinDNAdemethylation.
+tolineagecommitment.Completemethioninedeprivationinhu- mouse ESCs using a ratiometric RNA-based sensor demon-
+manPSCsrapidlydecreasesSAMpoolsandleadstocelldeath stratednochangeinSAMlevelsuponthreoninewithdrawal,in
+along with a decrease in histone 3 lysine 4 trimethylation contrast to methionine withdrawal which led to rapid loss of
+(H3K4me3).69 Further studies have shown that mouse PSCs sensor signal.175 These experiments demonstrate that SAM
+catabolize threonine to acetyl-CoA and glycine that can levelsmustbetightlyregulatedtoensureproperPSCfunction,
+contributetoSAMsynthesis,andthreoninewithdrawalinthese but suggest further studies are necessary to conclude how
+cells lowers H3K4me3. However, measurements of SAM in SAM levels are controlled endogenously in different systems.
+CellStemCell31,February1,2024 171
+ll
+Review
+Indeed, increased SAM consumption—not just SAM produc- ⍺-KG-dependentdioxygenases—havebeenidentifiedinmulti-
+tion—may be a major determinant of SAM levels: in plecancertypes.177MutantIDHissufficienttoimpairdifferenti-
+naive PSCs, high expression of the SAM-consuming enzyme ationinmultipletissuelineages,consistentwiththenotionthat
+nicotinamide N-methyltransferase can limit SAM levels, thus 2-HG and subsequent dioxygenase repression promote aber-
+decreasingtri-methylationathistone3lysine27(H3K27me3).176 rantstemcellself-renewal.185–189Therefore,geneticalterations
+HistoneandDNAmethylationcanalsoberegulatedbylevels that lead to tumorigenesis might co-opt metabolic-epigenetic
+oftheTCAcyclemetabolitealpha-ketoglutarate(⍺-KG).⍺-KGis regulationthatunderliesnormalstemcellfunction.
+aco-substrateforthelargefamilyof⍺-KG-dependentdioxyge- Like2-HG,theTCAcycleintermediatessuccinateandfuma-
+nases,includingtheJumonji-domaincontaininghistonedeme- ratecanalsoserveascompetitiveinhibitorsof⍺-KG-dependent
+thylases and the ten-eleven-translocation (TET) enzymes that dioxygenases,andbothmetabolitesaccumulatetopathological
+facilitate thehydroxylation anddemethylation ofmanymethyl- levels in tumors with mutations in genes encoding subunits of
+atedhistonesandDNAmethylcytosine.InbothPSCsandava- succinate dehydrogenase (SDH) or fumarate hydratase (FH),
+rietyof otherstem andcancercelltypes,⍺-KGhasbeenpro- respectively.177EmergingevidenceindicatesthatSDHandFH
+posedtocontrolcellfateprogramsviathese⍺-KG-dependent arerequiredfornormalstemcellfunction.Inducibledeletionof
+demethylases that remove repressive DNA or histone methyl- SDH subunit Sdhb led to death of HSCs, although whether
+ation.177 However, manipulating ⍺-KG has diverse effects in this was because of succinate accumulation specifically, or a
+differentstemcellpopulations,indicatingthatmetabolicregula- blockadeintheTCAcyclemoregenerally,remainstobedeter-
+tion of chromatin demethylation is likely extremely context mined.190LikeSDHloss,FHlossimpairednormalhematopoie-
+dependent. sis,but,notably,hematopoiesiswasrestoredbyacytosolicFH
+MousePSCsculturedunderconditionsthatpromotethenaive variant that normalized fumarate levels without rescuing mito-
+state of pluripotency exhibit increased intracellular levels of chondrial substrate oxidation.191 These results suggest that
+⍺-KG.38,178Inthesecells,theadditionofcell-permeable ⍺-KG fumarateaccumulation,ratherthanmitochondrialTCAcyclefail-
+supportsPSCself-renewal,38whileconverselyinprimedhuman ure,impairednormalhematopoiesis.Majoropenquestionsare
+PSCs⍺-KGsupplementationleadstodifferentiationaccompa- how perturbations in the TCA cycle affect stem cell function
+niedbyDNAandhistonedemethylation.179Thesedisparateout- andwhetherTCAcycle-derivedmetabolitesaffectcellfatecon-
+comesmaybeduetotheverydifferentchromatinlandscapesof trol through ⍺-KG-dependent dioxygenases or through other
+naive and primed PSCs: naive ESCs are globally hypomethy- mechanisms(forexample,fumarateisanelectrophilethatcan
+lated,anddifferentiationrequiresmethylationforsilencingplu- directlymodifyreactivecysteines).
+ripotency transcriptional networks.180,181 In contrast, primed Theabovestudiesclearlyillustratethatfluctuationsinmeta-
+cellswithsomaticlevelsofmethylationlikelyrequiredemethyla- bolicpathwayscanalterthelevelsofchromatinandDNAmod-
+tiontoinducelineage-specificgenes. ifications and that these alterations perturb downstream stem
+Consistentwiththismodel,⍺-KGpromotes differentiation in cell function. It will be important for future studies to assess
+severaladultstemcellpopulations.Inepidermalstemcells,de whethernormalphysiologicshiftsinmetaboliteconcentrations
+novo serine synthesis produces ⍺-KG that drives loss of are sufficient to modulate the function of enzymes controlling
+H3K27me3 and promotes epidermal differentiation.177 Exoge- thechromatinlandscape.
+nous ⍺-KG supplementation likewise induced differentiation in
+HSCs99 and intestinal organoids.182 Across these studies, a HALLMARK5:METABOLICREQUIREMENTSOFTHE
+myriad of⍺-KG-utilizing enzymeshavebeenimplicatedasthe STEMCELLNICHE
+drivers of ⍺-KG-dependent effects on cell fate. Likely, the role
+of ⍺-KG will depend on the complement of dioxygenases ex- A critical component of stem cell biology is the endogenous
+pressedinagivencelltypeandtheparticularchromatinbarriers niche.Biophysicalorparacrinesignalsfromotherstemcellsor
+toaparticularfatechange. nichecomponentsregulatestemcellfunctionandareoftendys-
+Additional evidence for metabolic regulation of chromatin regulatedinpathologiesandaging.192Anemergingquestionis
+methylation comes from the function of ascorbate, a cofactor whether characteristics of the niche support stem cell meta-
+thatsupportsactivityof⍺-KG-dependentdioxygenases.Ascor- bolism. Reciprocally, specific metabolic adaptations might
+bateadditioninPSCspromotesTET1activityandleadstoanin- enablestemcellsurvivalinspecializednicheenvironments.
+crease in DNAdemethylation.183 Inthehematopoieticsystem,
+highlevelsofascorbatearemaintainedinHSCsanddecrease Proximitytovasculatureandlymphatics
+with differentiation to progenitors. Mice unable to synthesize Akeyfeatureofthestemcellnicheisthatstemcellsarespatially
+ascorbatehadincreasedHSCfrequencywithreducedlevelsof located in fixed proximity to defined anatomical structures.
+5hmC, suggestive of reduced TET activity.184 By increasing Physical distance from structures such as vasculature can
+levelsofeithertheco-substrate(⍺-KG)orenzymeactivity(ascor- createregionsoflimitedoxygenconcentrationornutrientavail-
+bate),stemcellsmightregulatechromatinmethylationstatesin ability that pose metabolic challenges for resident stem cells.
+responsetointracellularmetabolicrewiring. The best evidence for this is seen in HSCs, which reside in
+Furthermore, mutations in metabolic enzymes that oppose endosteal zones of the bone marrow adjacent to sinusoidal
+thesepathwayshavebeenshowntodysregulatestemcellfunc- blood vessels.193 These regions are among the most hypoxic
+tion. Recurrent mutations in isocitrate dehydrogenase 1 and 2 in the bone marrow,194,195 suggesting that HSC function must
+(IDH) that lead to the production of 2-hydroxyglutarate be optimized for low oxygen levels. The role of hypoxia in the
+(2-HG)—an oncometabolite that is a competitive inhibitor of HSCnicheisindependentofthehypoxia-inducibletranscription
+172 CellStemCell31,February1,2024
+ll
+Review
+factorsHIF1⍺andHIF2⍺,whicharenotrequiredforHSCself- Some evidence suggests phagocytosis plays a role in other
+renewal.196,197HypoxiamayplayaroleinlimitingROSlevelsin stemcellpopulations.BasalepithelialcellsandHFSCsactivate
+HSCs,astransientexposureofHSCstoatmosphericoxygenin- phagocytosis in the normal hair cycle to clear dying apoptotic
+creasesROSandimpairsHSCs.198 cells.211,212Whilethesestudieshavefocusedonhowphagocy-
+LikeHSCs,NSCsareperivascularbutarethoughttoresidein tosis maintains tissue architecture, uptake and degradation of
+regionsofthebrainwithrelativelyhigheroxygentension.199,200 extracellular macromolecules could support cell metabolism.
+Todate,theroleofoxygenlevelsinNSCsorothertissuestem Stemcellslikewiseinteractwithothercelltypeswithintheniche,
+cellsremainsunclear.StudiesexploringtheHFSCandISCniche anditremainstobeseenwhethernichecellsspecificallysupport
+have identified lymphatics as critical niche components that stemcellmetabolism.Intheintestine,monocarboxylateproduc-
+directly associate with stem cells.201–204 While these studies tionbyintestinalnichecellsenhancesoxidativephosphorylation
+have principally focused on signaling between stem cells and byISCs.213Otherstemcell-nicheinteractionsmighthavesimilar
+lymphaticendothelialcells,itispossiblethatlymphaticdrainage unexploredmetabolicbenefits.Finally,dietaryinterventionscan
+maysupportmetabolismaswellbyremovingtoxicmetabolites alternutrientavailabilityinthestemcellnicheandregulatestem
+orwasteproducts. cellmetabolismtoimpactcellfate.214
+Nutrientacquisitionstrategies FUTUREDIRECTIONS
+Whereasinvitroculturesystemsprovidenutrientsatlevelsoften
+invastexcessofcellularrequirements,nutrientlimitationmight Ongoing studies continue to explore the relationship between
+represent a barrier to stem cell function in their endogenous metabolism and stem cell function. Despite the exponential
+niche.Testingthishypothesisislimitedbytechnicalchallenges progress that has been made since the first isolation of adult
+in measuring metabolite concentrations in the interstitial fluid andembryonicstemcellsover50yearsago,ourviewofstem
+of different compartments. Suggestively, studies measuring cell metabolism is still limited. In the field of stem cell biology
+amino acid concentrations in the bone marrow revealed a atlarge,thepopularizationofsingle-cellsequencingtechnology
+distinctaminoacidprofilefromtheperipheralbloodandidenti- has increasingly illuminated the diversity of distinct cell states
+fiedvalineasselectivelyrequiredforHSChomeostasis.205How- within stem cell populations.215 This increasing transcriptomic
+ever,thepresenceofanaminoacidinthenichedoesnotguar- resolutioncontinuestoredefineourdefinitionofwhatconstitutes
+anteeitsuptake.Forexample,aspartateavailabilityislimitingfor thepluripotentormultipotentstemcellpool.Animportantcorol-
+HSCsduringhematopoieticregeneration,andoverexpressionof larytothesesequencingstudiesisthedevelopmentofprotocols
+the glutamate/aspartate transporter was sufficient to increase to measure metabolites in increasingly small numbers of cells
+aspartatelevelsandHSCfunction.206Therefore,nutrientavail- that often must be isolated from their tissue of origin.19,20 The
+ability must be coupled with acquisition strategies to ensure abilitytocorrelatemetabolicandtranscriptomicprofileswillbe
+optimalstemcellfunction. crucialfordefininghowmetabolismcancontrolcellfateacross
+PSCs are a transient state captured in vitro with no direct differentstemcelltypes.Inparallelwithcontinuedexplorationof
+equivalentduringinvivodevelopment.Nevertheless,theyretain phenotypic heterogeneity within stem cell populations,
+several metabolic aspects of blastocysts that reside in the increasedattentionmustbepaidtothestudyofstemcellmeta-
+maternal reproductive tract. While glucose and soluble amino bolismintheirendogenouscontext.7Technologicaladvancesin
+acidsareanimportantnutrientsourceformammaliancellprolif- techniquessuchasspatialmetabolomics216willdeepenourun-
+eration, the maternal reproductive tract is relatively nutrient derstandingofhowmetabolitelevelsrelatetopositioningwithin
+poor.207Inmostmammaliancells,aminoacidsareacquiredby 3Dtissuearchitecture.Thesetoolshavealreadybeenappliedto
+adiversesetofplasmamembranetransportersthatfacilitateen- bothnormaltissuesandmalignancies217–219andwillbeofuseto
+tryofthesenutrientstofuelproteinsynthesisandothercellular explorehowstemcellmetabolismrelatestopositionintheniche
+functions.208 In contrast, naive PSCs have reduced levels of andproximitytoothernichestructures.
+theseplasmamembraneaminoacidtransportersandcanprolif- To date, most of our understanding of metabolic control of
+erateandgainbiomassintheabsenceofmostessentialamino stemcellfatereliesonexperimentswheremetabolitesaresup-
+acids.111Mechanistically,aminoacidindependenceisenabled plementedeitherinthedietorinculturemedia,orupondeletion
+byhighlevelsofmacropinocytosis,wherebyextracellularprotein of metabolic genes in the stem cell compartment. These ap-
+istakenupanddigestedinthelysosometoreleaseaminoacids proachesreflectthewaysmetabolicenzymescanbemutated
+requiredforgrowth.111 incancerorinbornerrorsofmetabolism,leadingtothebuildup
+The ability of naive PSCs to grow without essential amino of supraphysiologic metabolite levels. Expanding the use
+acids mimics early studies demonstrating that embryos can of physiologic media220 that better recapitulates the nutrient
+developtotheblastocyststageinthecompleteabsenceofsol- composition of different stem cell environments will improve
+ubleaminoacids.209,210Indeed,allcellsofthepre-implantation thephysiologicrelevanceofinvitrostemcellmodels.Suchap-
+blastocystengageinmacropinocytosis,111suggestingaconser- proacheswillallowustounderstandwhetherphysiologicalshifts
+vation of nutrient acquisition programs between PSC culture inmetabolitesalterstemcellfunctionandhowstemcellspre-
+modelsandembryonicdevelopment.Thatthesemetabolicstra- servetheirlongevityandidentityinthefaceofachangingmicro-
+tegies are hard-wired into the cells of the pre-implantation environment.
+epiblastirrespectiveofothercelltypesor3Darchitectureverifies Ultimately, manyquestionswillrequiretheabilityto perform
+theirutilitytouncovermetabolicprogramswithdirectrelevance isotope tracing in stem cells in vivo. Recent studies have pio-
+toembryogenesis. neered new approaches to perform isotope labeling in the
+CellStemCell31,February1,2024 173
+ll
+Review
+placenta and embryo during midgestation221 and mid-to-late nificant Impact on the Cellular Metabolome. J. Proteome Res. 18,
+gestation222in mice,openingthepossibilityofmonitoring em- 169–181.
+bryonic metabolism during normal intrauterine development 5.Llufrio,E.M.,Wang,L.,Naser,F.J.,andPatti,G.J.(2018).Sortingcellsal-
+and in disease. Similarly, new stem-cell-derived models of
+terstheirredoxstateandcellularmetabolome.RedoxBiol.16,381–387.
+mammalian embryogenesis continue to be refined.223 These 6.Ma,E.H.,Verway,M.J.,Johnson,R.M.,Roy,D.G.,Steadman,M.,Hayes,
+tools have already led to studies probing the relationship be- S.,Williams,K.S.,Sheldon,R.D.,Samborska,B.,Kosinski,P.A.,etal.
+tweenmetabolismanddevelopment224–226andwillundoubtedly (2019).MetabolicProfilingUsingStableIsotopeTracingRevealsDistinct
+PatternsofGlucoseUtilizationbyPhysiologicallyActivatedCD8+TCells.
+helpbridgethegapbetweeninvitroandinvivostudiesofdevel- Immunity51,856–870.e5.
+opmentalmetabolism.
+7.Meacham,C.E.,DeVilbiss,A.W.,andMorrison,S.J.(2022).Metabolic
+While the increased ability to measure metabolism in stem regulationofsomaticstemcellsinvivo.Nat. Rev.Mol.CellBiol.23,
+cellswillbeintegraltowarddefiningwhatstemcellmetabolism 428–443.
+is, metabolite levels alone are insufficient to fully understand
+8.Forsberg,E.C.,Passegue´,E.,Prohaska,S.S.,Wagers,A.J.,Koeva,M.,
+how metabolic pathways influence stem cell biology. Rather, Stuart,J.M.,andWeissman,I.L.(2010).MolecularSignaturesofQuies-
+there is a pressing need for studies that ask how metabolism cent, Mobilized and Leukemia-Initiating Hematopoietic Stem Cells.
+PLoSOne5,e8785.
+supportsstemcellfunction.Inadditiontoadvancingtoolsthat
+measureincreasingcomplexitywithinthestemcellpopulation, 9.Fukada,S.i.,Uezumi,A.,Ikemoto,M.,Masuda,S.,Segawa,M.,Tani-
+mura,N.,Yamamoto,H.,Miyagoe-Suzuki,Y.,andTakeda,S.(2007).Mo-
+it remains important to utilize models that conversely take a
+lecularSignatureofQuiescentSatelliteCellsinAdultSkeletalMuscle.
+reductionist approach. During normal stem cell homeostasis, StemCell.25,2448–2459.
+cellproliferationistightlylinkedtocellfateandlocationwithin
+10.Shin,J.,Berg,D.A.,Zhu,Y.,Shin,J.Y.,Song,J.,Bonaguidi,M.A.,Eniko-
+theniche.Consequently,interventionsthatalteranyofthesein- lopov,G.,Nauen,D.W.,Christian,K.M.,Ming,G.l.,andSong,H.(2015).
+dividualcomponentswilllikelyaffectothersinturn.Inthecaseof Single-cellRNA-seqwithWaterfallRevealsMolecularCascadesunder-
+lyingAdultNeurogenesis.CellStemCell17,360–372.
+metabolicperturbations,thischallengesourabilitytolinkspe-
+cificmetabolicfluctuationstoanyindividualstemcellattribute. 11.Llorens-Bobadilla,E.,Zhao,S.,Baser,A.,Saiz-Castro,G.,Zwadlo,K.,
+and Martin-Villalba, A. (2015). Single-Cell Transcriptomics Reveals a
+It is therefore critical to develop systems to isolate individual
+PopulationofDormantNeuralStemCellsthatBecomeActivatedupon
+stemcellattributesandallowcarefulinterrogationofmetabolic BrainInjury.CellStemCell17,329–340.
+manipulations, while in parallel asking questions that seek to
+12.Sharpley,M.S.,Chi,F.,Hoeve,J.T.,andBanerjee,U.(2021).Metabolic
+ascribemetabolicregulationtospecificstemcelloutputs.Sub- plasticitydrivesdevelopmentduringmammalianembryogenesis.Dev.
+sequently, metabolic principles derived from comparatively Cell56,2329–2347.e6.
+simplerexperimentscanbeextrapolatedtostemcellsinliving
+13.Benedetti,E.,Liu,E.M.,Tang,C.,Kuo,F.,Buyukozkan,M.,Park,T.,Park,
+organisms. Together, these approaches are likely to elucidate J.,Correa,F.,Hakimi,A.A.,Intlekofer,A.M.,etal.(2023).Amultimodal
+fundamentalprinciplesofstemcellmetabolismandprovideop- atlasoftumourmetabolismrevealsthearchitectureofgene–metabolite
+covariation.Nat.Metab.5,1029–1044.
+portunitiestoimprovestemcellfunctionindisease,tissueregen-
+eration,andtherapeuticinterventions. 14.Liu, Y., Beyer, A., and Aebersold, R. (2016). On the Dependency of
+CellularProteinLevelsonmRNAAbundance.Cell165,535–550.
+ACKNOWLEDGMENTS 15.Park,J.O.,Tanner,L.B.,Wei,M.H.,Khana,D.B.,Jacobson,T.B.,Zhang,
+Z.,Rubin,S.A.,Li,S.H.J.,Higgins,M.B.,Stevenson,D.M.,etal.(2019).
+Near-equilibriumglycolysissupportsmetabolichomeostasisandenergy
+Weapologizetocolleagueswhoseworkwecouldnotciteduetospacelimi- yield.Nat.Chem.Biol.15,1001–1008.
+tationsandthankJuliaBrunnerforhelpwithfigurepreparation.B.T.J.isan
+NICHD Ruth L. Kirschstein Predoctoral fellow (F30HD107943) and is sup- 16.Malik,N.,Ferreira,B.I.,Hollstein,P.E.,Curtis,S.D.,Trefts,E.,WeiserNo-
+portedbyaMedicalScientistTrainingProgramgrantfromtheNIGMSofthe vak,S.,Yu,J.,Gilson,R.,Hellberg,K.,Fang,L.,etal.(2023).Inductionof
+NationalInstitutesofHealthunderawardnumberT32GM007739totheWeill lysosomalandmitochondrialbiogenesisbyAMPKphosphorylationof
+Cornell/Rockefeller/Sloan Kettering Tri-Institutional MD-PhD Program. FNIP1.Science380,eabj5559.
+L.W.S.F.isaNewYorkStemCellFoundation–RobertsonInvestigator,aGeof-
+freyBeeneJuniorFacultyChairandaBochner-FleisherScholar.Thisresearch 17.Schmidt,C.A.,Fisher-Wellman,K.H.,andNeufer,P.D.(2021).FromOCR
+wasadditionallysupportedbytheMemorialSloanKetteringCancerCenter andECARtoenergy:Perspectivesonthedesignandinterpretationof
+SupportGrantP30CA008748andtheNYSCF.
+bioenergeticsstudies.J.Biol.Chem.297,101140.
+18.DeBerardinis,R.J.,andChandel,N.S.(2020).Weneedtotalkaboutthe
+DECLARATIONOFINTERESTS Warburgeffect.Nat.Metab.2,127–129.
+19.Nagaraj,R.,Sharpley,M.S.,Chi,F.,Braas,D.,Zhou,Y.,Kim,R.,Clark,
+B.T.J.andL.W.S.F.arelistedasinventorsonpatentapplication(s)relatedto A.T., and Banerjee, U. (2017). Nuclear Localization of Mitochondrial
+metabolismandcellfatecontrolinembryonicstemcells. TCACycleEnzymesasaCriticalStepinMammalianZygoticGenome
+Activation.Cell168,210–223.e11.
+REFERENCES
+20.DeVilbiss,A.W.,Zhao,Z.,Martin-Sandoval,M.S.,Ubellacker,J.M.,Tas-
+dogan,A.,Agathocleous,M.,Mathews,T.P.,andMorrison,S.J.(2021).
+1. Kim,J.,andDeBerardinis,R.J.(2019).MechanismsandImplicationsof Metabolomicprofilingofrarecellpopulationsisolatedbyflowcytometry
+MetabolicHeterogeneityinCancer.CellMetab.30,434–446. fromtissues.Elife10,e61980.
+2. DeBerardinis,R.J.,andThompson,C.B.(2012).CellularMetabolismand 21.Bartman,C.R.,TeSlaa,T.,andRabinowitz,J.D.(2021).Quantitativeflux
+Disease:WhatDoMetabolicOutliersTeachUs?Cell148,1132–1144. analysisinmammals.Nat.Metab.3,896–908.
+3. Perez-Ramirez,C.A.,andChristofk,H.R.(2021).ChallengesinStudying 22.Jang, C., Chen, L., and Rabinowitz, J.D. (2018). Metabolomics and
+StemCellMetabolism.CellStemCell28,409–423. isotopetracing.Cell173,822–837.
+4. Binek,A.,Rojo,D.,Godzien,J.,Rupe´rez,F.J.,Nun˜ez,V.,Jorge,I.,Ric- 23.Lau,A.N.,Li,Z.,Danai,L.V.,Westermark,A.M.,Darnell,A.M.,Ferreira,
+ote,M.,Va´zquez,J.,andBarbas,C.(2019).FlowCytometryHasaSig- R., Gocheva, V., Sivanand, S., Lien, E.C., Sapp, K.M., et al. (2020).
+174 CellStemCell31,February1,2024
+ll
+Review
+Dissectingcell-type-specificmetabolisminpancreaticductaladenocar- ulatesenergymetabolismanddifferentiationpotentialofhumanpluripo-
+cinoma.Elife9,e56782. tentstemcells.EMBOJ.30,4860–4873.
+24.Finley,L.W.S.(2023).Whatiscancermetabolism?Cell186,1670–1688. 42.Varum,S.,Rodrigues,A.S.,Moura,M.B.,Momcilovic,O.,Easley,C.A.,
+4th,Ramalho-Santos,J.,VanHouten,B.,andSchatten,G.(2011).En-
+25.Intlekofer,A.M.,andFinley,L.W.S.(2019).Metabolicsignaturesofcan- ergyMetabolisminHumanPluripotentStemCellsandTheirDifferenti-
+cercellsandstemcells.Nat.Metab.1,177–188. atedCounterparts.PLoSOne6,e20914.
+26.Pachnis,P.,Wu,Z.,Faubert,B.,Tasdogan,A.,Gu,W.,Shelton,S.,Sol- 43.Cliff,T.S.,Wu,T.,Boward,B.R.,Yin,A.,Yin,H.,Glushka,J.N.,Preste-
+monson,A.,Rao,A.D.,Kaushik,A.K.,Rogers,T.J.,etal.(2022).Invivo gaard, J.H., and Dalton, S. (2017). MYC Controls Human Pluripotent
+isotopetracingrevealsarequirementfortheelectrontransportchainin Stem Cell Fate Decisions through Regulation of Metabolic Flux. Cell
+glucoseandglutaminemetabolismbytumors.Sci.Adv.8,eabn9550. StemCell21,502–516.e9.
+27.Luengo,A.,Li,Z.,Gui,D.Y.,Sullivan,L.B.,Zagorulya,M.,Do,B.T.,Fer- 44.Moussaieff,A.,Rouleau,M.,Kitsberg,D.,Cohen,M.,Levy,G.,Barasch,
+reira,R.,Naamati,A.,Ali,A.,Lewis,C.A.,etal.(2021).Increaseddemand D., Nemirovski, A., Shen-Orr, S., Laevsky, I., Amit, M., et al. (2015).
+for NAD+ relative to ATP drives aerobic glycolysis. Mol. Cell 81, Glycolysis-Mediated Changes in Acetyl-CoA and Histone Acetylation
+691–707.e6. ControltheEarlyDifferentiationofEmbryonicStemCells.CellMetab.
+21,392–402.
+28.Wang, Y., Stancliffe, E., Fowle-Grider, R., Wang, R., Wang, C.,
+Schwaiger-Haber,M.,Shriver,L.P.,andPatti,G.J.(2022).Saturationof 45.Kim,H.,Jang,H.,Kim,T.W.,Kang,B.H.,Lee,S.E.,Jeon,Y.K.,Chung,
+themitochondrialNADHshuttlesdrivesaerobicglycolysisinproliferating D.H.,Choi,J.,Shin,J.,Cho,E.J.,andYoun,H.D.(2015).CorePluripo-
+cells.Mol.Cell82,3270–3283.e9.
+tencyFactorsDirectlyRegulateMetabolisminEmbryonicStemCellto
+MaintainPluripotency.StemCell.33,2699–2711.
+29.Mulas, C., Kalkan, T., von Meyenn, F., Leitch, H.G., Nichols, J., and
+Smith,A.(2019).Definedconditionsforpropagationandmanipulation 46.Liang,R.,Arif,T.,Kalmykova,S.,Kasianov,A.,Lin,M.,Menon,V.,Qiu,J.,
+ofmouseembryonicstemcells.Development146,dev173146.
+Bernitz,J.M.,Moore,K.,Lin,F.,etal.(2020).RestrainingLysosomalAc-
+tivityPreservesHematopoieticStemCellQuiescenceandPotency.Cell
+30.Boroviak,T.,Loos,R.,Bertone,P.,Smith,A.,andNichols,J.(2014).The StemCell26,359–376.e7.
+abilityofinner-cell-masscellstoself-renewasembryonicstemcellsis
+acquiredfollowingepiblastspecification.Nat.CellBiol.16,516–528.
+47.Wang,Y.-H.,Israelsen,W.J.,Lee,D.,Yu,V.W.C.,Jeanson,N.T.,Clish,
+C.B., Cantley, L.C., Vander Heiden, M.G., and Scadden, D.T. (2014).
+31.Ying,Q.-L.,Wray,J.,Nichols,J.,Batlle-Morera,L.,Doble,B.,Woodgett,
+Cell-State-SpecificMetabolicDependencyinHematopoiesisandLeuke-
+J
+c
+.
+e
+,
+ll
+C
+s
+o
+e
+h
+lf
+e
+-
+n
+re
+,
+n
+P
+e
+.
+w
+,a
+a
+n
+l.
+d
+N
+S
+a
+m
+tu
+i
+r
+th
+e
+,
+4
+A
+5
+.
+3
+(
+,
+2
+5
+0
+1
+0
+9
+8
+–
+).
+5
+T
+2
+h
+3
+e
+.
+groundstateofembryonicstem mogenesis.Cell158,1309–1323.
+48.Takubo,K.,Nagamatsu,G.,Kobayashi,C.I.,Nakamura-Ishizu,A.,Ko-
+32.Theunissen,T.W.,Powell,B.E.,Wang,H.,Mitalipova,M.,Faddah,D.A.,
+bayashi,H.,Ikeda,E.,Goda,N.,Rahimi,Y.,Johnson,R.S.,Soga,T.,
+Reddy,J.,Fan,Z.P.,Maetzel,D.,Ganz,K.,Shi,L.,etal.(2014).System-
+etal.(2013).RegulationofGlycolysisbyPdkFunctionsasaMetabolic
+aticIdentificationofCultureConditionsforInductionandMaintenanceof
+NaiveHumanPluripotency.CellStemCell15,524–526. C
+C
+h
+el
+e
+l
+c
+S
+k
+t
+p
+e
+o
+m
+in
+C
+t
+e
+f
+l
+o
+l
+r
+12
+C
+,
+e
+4
+ll
+9–
+C
+6
+y
+1
+c
+.
+le Quiescence in Hematopoietic Stem Cells.
+33.Bayerl,J.,Ayyash,M.,Shani,T.,Manor,Y.S.,Gafni,O.,Massarwa,R.,
+49.Halvarsson,C.,Eliasson,P.,andJo¨nsson,J.I.(2017).Pyruvatedehydro-
+Kalma,Y.,Aguilera-Castrejon,A.,Zerbib,M.,Amir,H.,etal.(2021).Prin-
+genasekinase1isessentialfortransplantablemousebonemarrowhe-
+ciplesofsignalingpathwaymodulationforenhancinghumannaiveplu-
+ripotencyinduction.CellStemCell28,1549–1565.e12.
+matopoieticstemcellandprogenitorfunction.PLoSOne12,e0171714.
+50.Ito,K.,Hirao,A.,Arai,F.,Matsuoka,S.,Takubo,K.,Hamaguchi,I.,No-
+34.Gu,W.,Gaeta,X.,Sahakyan,A.,Chan,A.B.,Hong,C.S.,Kim,R.,Braas,
+miyama,K.,Hosokawa,K.,Sakurada,K.,Nakagata,N.,etal.(2004).
+D.,Plath,K.,Lowry,W.E.,andChristofk,H.R.(2016).GlycolyticMeta-
+RegulationofoxidativestressbyATMisrequiredforself-renewalofhae-
+bolismPlaysaFunctionalRoleinRegulatingHumanPluripotentStem
+CellState.CellStemCell19,476–490.
+matopoieticstemcells.Nature431,997–1002.
+35.Zhou,W.,Choi,M.,Margineantu,D.,Margaretha,L.,Hesson,J.,Cava- 51.Vannini,N.,Girotra,M.,Naveiras,O.,Nikitin,G.,Campos,V.,Giger,S.,
+naugh,C.,Blau,C.A.,Horwitz,M.S.,Hockenbery,D.,Ware,C.,andRuo- Roch,A.,Auwerx,J.,andLutolf,M.P.(2016).Specificationofhaemato-
+hola-Baker,H.(2012).HIF1ainducedswitchfrombivalenttoexclusively poieticstemcellfateviamodulationofmitochondrialactivity.Nat.Com-
+glycolyticmetabolismduringESC-to-EpiSC/hESCtransition.EMBOJ.
+mun.7,13125.
+31,2103–2116.
+52.Dela´s,M.J.,Jackson,B.T.,Kovacevic,T.,Vangelisti,S.,MuneraMara-
+36.Carbognin,E.,Betto,R.M.,Soriano,M.E.,Smith,A.G.,andMartello,G. villa,E.,Wild,S.A.,Stork,E.M.,Erard,N.,Knott,S.R.V.,andHannon,
+(2016).Stat3promotesmitochondrialtranscriptionandoxidativerespira- G.J.(2019).lncRNASpehdRegulatesHematopoieticStemandProgen-
+tionduringmaintenanceandinductionofnaivepluripotency.EMBOJ.
+itorCellsandIsRequiredforMultilineageDifferentiation.CellRep.27,
+35,618–634. 719–729.e6.
+37.Takashima,Y.,Guo,G.,Loos,R.,Nichols,J.,Ficz,G.,Krueger,F.,Oxley, 53.Jun,S.,Mahesula,S.,Mathews,T.P.,Martin-Sandoval,M.S.,Zhao,Z.,
+D.,Santos,F.,Clarke,J.,Mansfield,W.,etal.(2014).ResettingTran- Piskounova,E.,andAgathocleous,M.(2021).Therequirementforpyru-
+scriptionFactorControlCircuitrytowardGround-StatePluripotencyin vatedehydrogenaseinleukemogenesisdependsoncelllineage.Cell
+Human.Cell158,1254–1269. Metab.33,1777–1792.e8.
+38.Carey,B.W.,Finley,L.W.S.,Cross,J.R.,Allis,C.D.,andThompson,C.B. 54.Anso´,E.,Weinberg,S.E.,Diebold,L.P.,Thompson,B.J.,Malinge,S.,
+(2015).Intracellulara-ketoglutaratemaintainsthepluripotencyofembry- Schumacker, P.T., Liu, X., Zhang, Y., Shao, Z., Steadman, M., et al.
+onicstemcells.Nature518,413–416. (2017). The mitochondrial respiratory chain is essential for haemato-
+poieticstemcellfunction.Nat.CellBiol.19,614–625.
+39.Vardhana, S.A., Arnold, P.K., Rosen, B.P., Chen, Y., Carey, B.W.,
+Huangfu, D., Carmona Fontaine, C., Thompson, C.B., and Finley, 55.Petrelli,F.,Scandella,V.,Montessuit,S.,Zamboni,N.,Martinou,J.C.,
+L.W.S.(2019).Glutamineindependenceisaselectablefeatureofplurip- andKnobloch,M.(2023).Mitochondrialpyruvatemetabolismregulates
+otentstemcells.Nat.Metab.1,676–687. theactivationofquiescentadultneuralstemcells.Sci.Adv.9,eadd5220.
+40.Arnold, P.K., Jackson, B.T., Paras, K.I., Brunner, J.S., Hart, M.L., 56.Schell,J.C.,Wisidagama,D.R.,Bensard,C.,Zhao,H.,Wei,P.,Tanner,
+Newsom,O.J.,Alibeckoff,S.P.,Endress,J.,Drill,E.,Sullivan,L.B.,and J.,Flores,A.,Mohlman,J.,Sorensen,L.K.,Earl,C.S.,etal.(2017).Con-
+Finley,L.W.S.(2022).Anon-canonicaltricarboxylicacidcycleunderlies trolofintestinalstemcellfunctionandproliferationbymitochondrialpy-
+cellularidentity.Nature603,477–481. ruvatemetabolism.Nat.CellBiol.19,1027–1036.
+41.Zhang,J.,Khvorostov,I.,Hong,J.S.,Oktay,Y.,Vergnes,L.,Nuebel,E., 57.Flores,A.,Schell,J.,Krall,A.S.,Jelinek,D.,Miranda,M.,Grigorian,M.,
+Wahjudi,P.N.,Setoguchi,K.,Wang,G.,Do,A.,etal.(2011).UCP2reg- Braas,D.,White,A.C.,Zhou,J.L.,Graham,N.A.,etal.(2017).Lactate
+CellStemCell31,February1,2024 175

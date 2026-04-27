@@ -1,0 +1,674 @@
+---
+source_path: /mnt/c/Users/Administrator/Zotero/storage/RBFN9GVY/Ghoshdastider和Sendoel - 2023 - Exploring the pan-cancer landscape of posttranscriptional regulation.pdf
+ingested: 2026-04-23
+sha256: 3a184604807e34b8
+---
+
+Report
+Exploring the pan-cancer landscape of
+posttranscriptional regulation
+Graphical abstract Authors
+UmeshGhoshdastider,AtamanSendoel
+Correspondence
+ataman.sendoel@uzh.ch
+In brief
+Ghoshdastideretal.exploitpan-cancer
+proteogenomicsdatatosystematically
+comparemRNA-proteincorrelations.
+Theyfindthatdecreasedlevelsof
+posttranscriptionalcontrolinpatients
+correlatewithshorterprogression-free
+andoverallsurvivalacrossmultiple
+cancertypes,underscoringthe
+importanceofacomprehensive
+understandingoftheposttranscriptional
+regulatorylandscapeofcancer.
+Highlights
+d TumormRNA-proteincorrelationsvarywidelybutarehigher
+thancorrespondinghealthytissues
+d TwoclustersofgenesshowparticularlylowmRNA-protein
+correlationsacrossallcancertypes
+d 55cancergenemutationsaltersystems-widemRNA-protein
+correlationsinmultiplecancertypes
+d HighermRNA-proteincorrelationsareassociatedwith
+shorteroverallcancerpatientsurvival
+Ghoshdastider&Sendoel,2023,CellReports42,113172
+October31,2023ª2023TheAuthors.
+ll
+https://doi.org/10.1016/j.celrep.2023.113172
+ll
+OPENACCESS
+Report
+Exploring the pan-cancer landscape
+of posttranscriptional regulation
+UmeshGhoshdastider1andAtamanSendoel1,2,*
+1InstituteforRegenerativeMedicine(IREM),UniversityofZurich,Wagistrasse12,8952Schlieren-Zurich,Switzerland
+2Leadcontact
+*Correspondence:ataman.sendoel@uzh.ch
+https://doi.org/10.1016/j.celrep.2023.113172
+SUMMARY
+Understandingthemechanismsunderlyingcancergeneexpressioniscriticalforprecisiononcology.Posttran-
+scriptionalregulationisakeydeterminantofproteinabundanceandcancercellbehavior.However,towhat
+extentposttranscriptionalregulatorymechanismsimpactproteinlevelsandcancerprogressionisanongoing
+question.Here,weexploitcancerproteogenomicsdatatosystematicallycomparemRNA-proteincorrelations
+across14differenthumancancertypes.WeidentifytwoclustersofgeneswithparticularlylowmRNA-protein
+correlations across all cancer types, shed light on the role of posttranscriptional regulation of cancer driver
+genesanddrugtargets,andunveilacohortof55mutationsthataltersystems-wideposttranscriptionalregu-
+lation.Surprisingly,wefindthatdecreasedlevelsofposttranscriptionalcontrolinpatientscorrelatewithshorter
+overall survivalacrossmultiplecancertypes,promptingfurthermechanisticstudiesintohowposttranscrip-
+tionalregulationaffectspatientoutcomes.Ourfindingsunderscoretheimportanceofacomprehensiveunder-
+standingoftheposttranscriptionalregulatorylandscapeforpredictingcancerprogression.
+INTRODUCTION assessmentoftheroleofposttranscriptionalregulation.Aproxy
+fortheextentofposttranscriptionalregulationisthecorrelationbe-
+Deregulationofgeneexpressionisahallmarkofcancer.Cancer tweenmRNAandproteinlevels,whichismainlydrivenbymRNA
+geneexpressioniscontrolledatmultiplesteps,fromtranscrip- translationratesandproteindegradation(Figure1B).Ifposttran-
+tion,mRNAstability,andmRNAtranslationuptoproteindegra- scriptionalregulationwasnegligible,mRNAandproteincorrelation
+dationandposttranslationalmodifications.Itisalong-standing wouldbecloseto1.Incontrast,hypoxia-induciblefactor1(HIF-1)
+question of how these regulatory steps contribute to protein isanexamplegenethatisprimarilyregulatedposttranscriptionally
+levels and cancer progression. Although many cancer studies andthereforeexhibitslowcorrelationsbetweenmRNAandprotein
+have focused on mRNA abundance as a readout for gene levels.7Thereareobviousexceptionstothisrule,suchasfortrans-
+expression,RNAlevelstypicallyexplainonlyroughlyhalfofthe ported or secreted proteins, where the cellular transcript is
+varianceincellularproteinlevels,indicatingthatposttranscrip- spatiallydisconnectedfromitstranslatedproduct.Furthermore,
+tional regulation is anequally important determinant of cancer the technical differences between sequencing-based mRNA
+cellbehavior.1–6However,towhatextentdifferentcancertypes quantificationandmassspectrometry-basedproteinquantifica-
+alter systems-wide posttranscriptional control and which co- tion introduce additional challenges. Nonetheless, given that
+horts of genes are under strong posttranscriptional regulation similar techniques are employed, genome-wide mRNA-protein
+arepoorlyunderstood. correlation analyses can uncover interesting insights into how
+Tumor initiation and progression are driven by mutations in differentcancertypesalterthelevelofposttranscriptionalregula-
+cancer-associated genes. Mutations in cancer driver genes tion.Thecorrelationscanrevealhowspecificdrivergenemuta-
+can directly or indirectly modulate the different steps of the tions impact posttranscriptional regulatory mechanisms and
+geneexpressioncascadeandtheoreticallyincreaseordecrease shedlightontheroleofposttranscriptionalregulationwithregard
+theroleofposttranscriptionalregulationindeterminingprotein topatientsurvival.
+abundanceinpatientswithcancer.Decadesofcancerresearch Here, we analyze mRNA-protein correlations across 14
+effortshaveinvestigated theroleof cancerdrivermutationsin different human cancer types. We unveil specific cohorts of
+alteringgeneexpressiononasingle-genebasis.Nevertheless, genes with low pan-cancer mRNA-protein correlations, shed
+whichcancermutationsparticularlyimpactglobalposttranscrip- light on the level of posttranscriptional regulation of cancer
+tionalregulatorymechanismsacrossdifferentcancertypesisan driversanddrugtargets,anduncoverhowcancergenemuta-
+ongoingquestion. tionsaffectthelevelofposttranscriptionalregulation.Unexpect-
+Proteogenomiceffortsoverthelastdecade,mainlydrivenbythe edly,wefindthatreducedposttranscriptionalcontrolcorrelates
+ClinicalProteomicTumorAnalysisConsortium(CPTAC)initiative withshorterprogression-freeandshorteroverallsurvivalacross
+to perform mass spectrometry-based proteomics, enable the different cancer types. A systematic understanding of the
+CellReports42,113172,October31,2023ª2023TheAuthors. 1
+ThisisanopenaccessarticleundertheCCBY-NC-NDlicense(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+ll
+OPENACCESS Report
+A B
+G
+C D
+E
+F
+H I
+(legendonnextpage)
+2 CellReports42,113172,October31,2023
+ll
+Report OPENACCESS
+posttranscriptionalregulatorylandscapeiscriticalforprecision nomaandadenocarcinomaexhibitedthehighestmediancorre-
+oncologyandmayleadtotheidentificationofregulatorynodes lations (0.546 and 0.504). Surprisingly, the analysis of the
+andentrypointsforthedevelopmentofnovelcancertherapies. availableadjacentnormalCPTACtissuesornormalhumantis-
+sues from the GTEx consortium19 showed both lower mRNA-
+RESULTS protein correlations compared with the corresponding tumors
+(Figure1E).Theseresultsindicatedecreasedlevelsofposttran-
+mRNA-proteincorrelationsacross14proteogenomic scriptionalcontrolintumorscomparedwiththeircorresponding
+humancancerdatasets tissuesoforigin.
+To compare pan-cancer mRNA-protein correlations, we We next employed hierarchical clustering to compare the
+included 14 proteogenomic human cancer datasets that con- mRNA-proteincorrelationsimilaritiesacrossvariouscancertypes
+tained transcriptomic and protein-level quantifications (Fig- byassessingthegene-levelcorrelationsofallpatientsbelonging
+ure 1A; Figure S1A). We incorporated in our analysis glioblas- to a particular tumor type. Overall, 11 studies showed decent
+toma, pediatric brain cancer, head and neck squamous cell cross-cancercorrelations,indicatingthatthegene-levelposttran-
+carcinoma, lung squamous cell carcinoma and adenocarci- scriptional regulation is reasonably conserved across cancer
+noma,breastcancer,renalcellcarcinoma,hepatocellularcarci- types within this subgroup (Figure 1F; Spearman cross-cancer
+noma, pancreatic adenocarcinoma, prostate adenocarcinoma, correlations > 0.5). Prostate adenocarcinoma, gastric cancer,
+uterinecorpusendometrialcarcinoma,ovarianserouscystade- andpediatricbraincancercorrelatedratherpoorlywiththeother
+nocarcinoma, stomach adenocarcinoma, and colorectal carci- 11studies.Pediatricbraincancerclusteredcloselywithglioblas-
+noma1,8–18 (Figure 1A). 11 out of 14 studies were conducted toma,suggestingsomeleveloftissue-specificposttranscriptional
+within the CPTAC, indicating reliability in cross-comparing the regulation. On the other hand, lung squamous cell carcinoma
+differentcancerdatasets(FigureS1A). (SCC)clusteredtogetherwithheadandneckSCCandnotlung
+WecandistinguishtwomaintypesofmRNA-proteincorrela- adenocarcinoma, indicating potential SCC-specific posttran-
+tions. First, we can correlate the variation of the same mRNA scriptionalregulatorymechanisms.Ofnote,prostateadenocarci-
+andproteinlevelsacrossdifferentpatientswithcancer,whichin- nomaandgastriccancer,twostudiesthatshowedthelowestcor-
+vestigateshowaparticularmRNA’sconcentrationexplainsthe relations with the other studies, were conducted outside the
+resulting protein levels in different patients with cancer (gene- CPTAC consortium with a different strategy to quantify protein
+levelanalysis).Second,wecancorrelateallmRNA-proteinpairs levels, raising the possibility that technical factors could have
+inanindividualpatientwithcancertodeterminehowtheoverall partlycontributedtothesedifferencesingene-levelcorrelations.
+mRNAdifferencesinapatientreflecttheircorrespondingprotein Next, we asked how mRNA-protein correlations differ be-
+abundance(sample-levelanalysis).Forthetwotypesofcorrela- tweencohortsofgenesacrossthe14cancertypes.Weincluded
+tions,wefound medianpan-cancer Spearman correlations for forthisanalysis4,725genes,inwhichbothmRNAandprotein
+gene-levelandsample-levelanalysesof0.41and0.42,respec- levelsweredetectedin>25%ofpatientsineachcancertype.
+tively.Asexpected,gene-levelcorrelationsshowawiderdistri- Using hierarchical clustering, we identified 8 distinct clusters
+butionthansample-levelcorrelations(Figures1Cand1D). withcommonmRNA-proteincorrelations(Figure1G).Threema-
+Wefocusedoursubsequentanalysesongene-levelcorrela- jor clusters generally showed high mRNA-protein correlations,
+tionsacrossdifferentcancertypes,asthistypeofanalysisallows including housekeeping genes and immune response genes
+ustoexploredifferencesinposttranscriptionalcontrolbetween (FiguresS2A–S2C),indicatingthattheseclustersalsocomprise
+different cohorts of genes.We observeda considerable range mRNA-proteincomparisonsofthetumorstroma.Incontrast,we
+ofmedianSpearmancorrelationsacrossdifferentcancertypes foundtwoclustersofgeneswithparticularlylowmRNA-protein
+(Figure1E).Whileprostateadenocarcinomashowedaparticu- correlationsacrossallcancertypes(Figure1G).Cluster4was
+larly low correlation (median 0.144), lung squamous cell carci- driven by oxidative phosphorylation genes, while cluster 5
+Figure1. Thepan-cancerlandscapeofposttranscriptionalregulation
+(A)Summaryoftheanalyzed14cancertypestoassessmRNA-proteincorrelations.
+(B)Schematicofthecentraldogmaofmolecularbiology,highlightingthatmRNA-proteincorrelationsprimarilydependontherateofmRNAtranslationand
+proteindegradation.
+(CandD)Pan-cancergene-level(C)andsample-level(D)Spearmancorrelationsofthecombineddatasetofthe14tumortypes.
+(E)mRNA-proteinSpearmangene-levelcorrelationsarehigherintumorsthaninthecorrespondingnormaltissues.Boxplotsshowthe14differentcancertypes,
+highlightingthatprostatecancerexhibitsthelowestandlungsquamouscellcarcinomathehighestmRNA-proteinSpearmancorrelations.Greenboxplots
+indicatethemRNA-proteinSpearmancorrelationsofthecorrespondingadjacentnormaltissues,wheneveravailableintheCPTACdataset.Redboxplots
+indicatemRNA-proteinSpearmancorrelationsofnormalhumantissueswheneverthecorrespondingtissuewasavailablefor>8patientsintheGTExconsortium.
+pvalueswereobtainedfromtheWilcoxonsigned-ranktest.
+(F)HierarchicalclusteringofmRNA-proteingene-levelSpearmancorrelationsofthe14differenttumortypes,comparinggene-levelcorrelationsofallpatientsofa
+tumortypewithanothertumortype.Atotalof11tumortypescorrelatereasonably(Spearmancorrelation>0.5)witheachother.Incontrast,3tumortypespoorly
+correlatewithothertumortypes,includingprostateadenocarcinoma,stomachadenocarcinoma,andpediatricbraincancer.
+(G)HierarchicalclusteringofmRNA-proteingene-levelcorrelationsidentifiestwoclustersofgeneswithlowmRNA-proteinSpearmancorrelationsacrossall14
+cancertypes.4,725genesthatshowedmRNA-proteincorrelationsin>25%ofpatientsinallcancertypeswereincludedinthisanalysis.
+(HandI)GeneOntology(GO)termanalysesforthegenesinclusters4and5highlighttheirinvolvementindifferentcellularprocesses,suchasoxidative
+phosphorylation(cluster4)andtranslation(cluster5).Overlapindicatesthetotalnumberofgenesoverlappingwiththepathway.Thexaxisindicatesthenumber
+ofgenesoverlappingwiththepathwaydividedbythetotalnumberofgenesinthepathway.
+CellReports42,113172,October31,2023 3
+ll
+OPENACCESS Report
+A
+B
+(legendonnextpage)
+4 CellReports42,113172,October31,2023
+ll
+Report OPENACCESS
+encompassedgenesinvolvedintranslationalregulation,suchas genesorallkinases,indicatingthatthedrivergenesinthesecan-
+ribosomalproteins,eukaryoticinitiationfactors,andRNA-bind- certypesarespecificallytargetedforposttranscriptionalregula-
+ingproteins(Figures1Hand1I;FigureS3).Thus,alargecohort tion(Figure2A,bottomright;FiguresS4DandS4E).Together,
+ofgenescontrollingmRNAtranslationarethemselvessubjectto thepan-cancerdrivergeneanalysesidentifycohortsofdrivers
+strong posttranscriptional regulation across different cancer thataresubjecttostrongposttranscriptionalregulationandpro-
+types. vide an entry point for future endeavors to study—beyond the
+Since tumor mRNA-protein correlations could be influenced mutationalstatus—generegulationofcancerdrivergenes.
+by the level of infiltrating stromal and immune cells, we next We also systematically assessed drug targets for FDA-
+usedESTIMATE20tocalculatethetumorpurity(theproportion approved cancer therapeutics and examined mRNA-protein
+ofcancercellsinthetumortissue)oftheproteogenomicdata- correlations of 111 therapeutic, diagnostic, and prognostic
+sets(FigureS4A).TocontrolfortumorpurityinourmRNA-pro- genes within the OncoKB dataset (Figure 2B). For instance,
+teincorrelations,wethencomputedpartialcorrelationsforthe MET, TP63, and CD274/PD-L1 showed generally high mRNA-
+14proteogenomicdatasets.Weobservedthatthepartialcorre- proteincorrelations.Ontheotherhand,thelowestmRNA-pro-
+lations were only marginally lower compared with the mRNA- tein correlations included genes such as BRCA2, TET2, FLT3,
+proteincorrelations(FigureS4B).Notably,thedownstreamanal- HRAS,andNOTCH1andsuggestedthatbeyondthemutational
+ysis,suchastheclustering,wasalsonotaffected whenusing status, posttranscriptional regulatory mechanisms could intro-
+partialcorrelation(FigureS4C),whichrevealedsimilarclusters duceadditionalcomplexitytounderstandingproteinlevelsand
+4 and 5, suggesting that tumor purity does not have a major gene function, warranting more careful examination of these
+impactonmRNA-proteincorrelations. genesforcancertherapy.
+Drivergenesshowawiderangeofposttranscriptional 55mutationsconsistentlyalterposttranscriptional
+regulation regulationincancer
+Monitoring the activity of cancer driver genes is essential for A largely underexplored question in cancer biology is how the
+personalizedoncology.Yet,beyondthemutationalstatus,can- mutationallandscapeacrossdifferentcancertypesimpactsthe
+cerdrivergenesareoftenassessedatthemRNAlevel,andlittle extentofposttranscriptionalregulationofcancercells.Toexamine
+isknownofhowthiscohortisposttranscriptionallyregulated.To howcancermissensemutationsinfluencemRNA-proteincorrela-
+determinetheextentofposttranscriptionalregulationofcancer tions,weincluded12datasetsthatincludedcancersequencing
+drivergenes,wenextanalyzedmRNA-proteincorrelationsofa dataandassessedallcancergenemutationsthatoccurredinat
+recentlycompiledsetof299drivergenesacrossthe14cancer least9patientspertumortype.Wethenexaminedglobalgene-
+datasets.21Wehierarchicallyclusteredthe248detectabledriver level mRNA-protein correlations in patients with a mutation
+genes(248outof299)basedonthemRNA-proteincorrelation compared with the remaining patients with cancer. Comparing
+(Figure2A).WeobservedawiderangeofmRNA-proteincorrela- 12tumorcohortswithsufficientcoverage,weidentified55gene
+tionsbetweendrivergenesandbetweencancertypes.Certain mutationsthatshowedasignificantchangeinmRNA-proteincor-
+driver genes such as EGFR, MET, MSH6, or IDH1 generally relationinatleast4tumortypes(Figures3A–3E;falsediscovery
+showed high mRNA-protein correlations (within the top 10%), rate[FDR]<0.05,pvaluesobtainedfromtheWilcoxonrank-sum
+suggesting that the variation of mRNA levels for these genes testandadjustedforFDRbytheBenjamini-Hochbergprocedure).
+largely explains their protein abundance. In contrast, RAC1, p53mutationsalteredmRNA-proteincorrelationsin8tumortypes
+TGIF1,HRAS,NRAS,orCTNNB1generallyexhibitedrelatively and,withtheexceptionofpediatricbraintumors,consistentlyex-
+low mRNA-protein correlations across most cancer types and hibitedincreasedmRNA-proteincorrelations(Figures3Aand3B).
+indicated that mRNA levels as a readout for gene expression p53 alters translational control at various levels, including ribo-
+should be more carefully interpreted. Finally, genes such as somebiogenesis,ribosomalproteintranscription,eIF4Ebinding
+FAT1, MACF1, CTNND1, or PIK3CA showed a large range of protein (eIF4E-BP) expression, ternary complex, and eIF4F as-
+mRNA-proteincorrelationsacrossdifferentcancertypes,which sembly.22,23 These observations suggest that p53 mutations
+could be due to tumor-specific posttranscriptional regulation reducetheoverallextentofposttranscriptionalcontrol.Similarly,
+(Figure2A,standarddeviationcolumnwithincircosplot).Inter- PTENmutantpatientsshowedincreasedmRNA-proteincorrela-
+estingly,thedrivergenesinstomach,prostate,andcoloncan- tionsacross3differenttumortypes,indicatingthatthiscohortof
+cers showed significantly lower correlations compared with all patientsshowsdecreasedlevelsofposttranscriptionalregulation
+Figure2. Posttranscriptionalregulationofcancerdrivergenesanddrugtargets
+(A)SummaryofthemRNA-proteinSpearmancorrelationsofthe248cancerdrivergenes.CircosplotshowsthehierarchicallyclusteredmRNA-proteincorre-
+lationsofthedrivergenes.Inaddition,thepan-cancercorrelationsandthestandarddeviationsareshown.Innercirclesshowthepan-cancermutationratesfor
+thedifferentdrivergenes.299drivergeneswereassessed,andgeneswithmissingdatain9ormorecancertypeswereremovedforthecircosplotanalysis,
+resultingin248drivergenes.Graymeansthatthecutoffof25%ofpatientswithmRNAandproteindataavailabletocalculatecorrelationswasnotreached.
+Labeledinredarethegenesmentionedinthetext.MedianmRNA-proteincorrelationandstandarddeviationforsomeexamplesareprovided,includingthe
+highest/lowestcorrelationandstandarddeviationgenes.Bottomright:SpearmanmRNA-proteincorrelationsforallgenesversusthedrivergenesacrossthe
+differentcancertypes.Instomach,colon,andprostatecancers,drivergenesexhibitsignificantlylowerSpearmanmRNA-proteincorrelationscomparedwithall
+genesorallkinases(FigureS4E).*p<0.05,Wilcoxonsigned-ranktest.
+(B)mRNA-proteinSpearmancorrelationsofcancerdrugtargetsandtherapeuticandprognosticgenesfromtheOncoKBdatabaseacross14cancertypes.Gray
+meansthatthecutoffof25%ofpatientswithavailablemRNAandproteindatawasnotreached.
+CellReports42,113172,October31,2023 5
+ll
+OPENACCESS Report
+A B
+C
+D
+E
+(legendonnextpage)
+6 CellReports42,113172,October31,2023
+ll
+Report OPENACCESS
+in these 3 cancer types. PTEN is one of the most frequently andS6E).WealsoanalyzedtheCPTACtumortypesthatincluded
+mutatedtumor-suppressorgenesinhumancancerandisknown CPTACsurvivaldataandsimilarlyobservedthatpediatricbrain
+torewiretranslation,partlyviamTORsignalingandhighlevelsof cancer patients with high mRNA-protein correlations showed
+eIF4E-BP1andS6K1phosphorylation,24–26providingapotential significantly shorteroverall survival(Figure 4C). Asimilar trend
+explanation for the altered level of posttranscriptional control. wasalsonoticeableforprogression-freeandoverallsurvivalin
+Furthermore, we also identified mutations in genes such as pancreaticcancerandcolorectalcancer,albeitwithoutreaching
+ABCA13, MUC4, RYR2, XIRP2, APOB, or Titin (TTN), which the significance threshold (Figures S6C–S6E). Of note, poorly
+showedalteredcorrelationsinatleast5tumortypesandwerepre- differentiatedtumorgradesshowedratherincreasedmRNA-pro-
+viouslynotimplicatedindirectlyimpingingontranslationalcontrol teincorrelations,mostevidentinuterine,headandneck,pancre-
+orproteindegradation.Forexample,mutationsinABCA13were atic,andlungadenocarcinoma,indicatingthatmoreaggressive
+associatedwithdecreasedcorrelationsin6tumortypes,whereas cancer cells indeed show higher mRNA-protein correlations
+TTNmutantpatientsshowedincreasedcorrelationsacross8tu- withinthesametumortype(FigureS7D).Wealsoemployedthe
+mortypes(Figures3A–3E). Coxproportionalhazardsregressionmodeltoevaluatetheeffect
+To examine which genes’ mRNA-protein correlations are ofmRNA-proteincorrelation,age,tumorpurity,andcancertype
+altered in p53 mutant patients, we employed a permutation onsurvivalandfoundthatanincreaseof0.1inmRNA-protein
+testforp53mutantandwild-typesamples(1,000permutations correlationresultedinhazardratiosof1.61and1.36forprogres-
+each) and calculated for each gene the p value of the delta sion-freeandoverallsurvival,respectively(Figures4Dand4E),
+mRNA-protein Spearman correlation from the null distribution highlightingthestrongimpactofmRNA-proteincorrelationsfor
+obtainedbythepermutations.Wethenperformedforall8signif- patientswithcancerindependentlyoftheothercovariates.
+icantlyalteredtumortypes(Figure3B)genesetenrichmentana- Ingeneral,proteinlevelspredictedsurvivalbetterthanmRNA
+lysesandhighlightedGeneOntologytermspresentinR3tumor levels,asshownforthe248drivergenesinpediatricbraincancer
+types,whichshowedanenrichmentoftranslation-relatedgenes patients,whichpredictedoverallsurvivalsignificantlybetterthan
+such as ribosomal proteins, eukaryotic initiation factors, and mRNA levels (Figures S7A–S7C). To examine which cohort of
+RNA-processinggenes(Figure3D;FigureS5A). proteins could mediate systems-wide alterations in posttran-
+Insummary,ouranalyseshighlightthecohortofcancergene scriptionalcontrol,wefocusedonthreecancertypesthatclearly
+mutations that result in systems-wide changes at the level of stratifiedpatientsbasedonmRNA-proteincorrelations.Tothis
+posttranscriptionalregulation acrossdifferenttumortypesand end,weanalyzeddifferentialproteinexpressionofpatientswith
+may prompt further mechanistic studies into how these genes high versus low mRNA-protein correlations in breast, ovarian,
+impacttranslationalregulationorproteindegradation. andpediatriccancersandperformedgenesetenrichmentana-
+lyses(GSEAs).WefoundthatpatientswithhighmRNA-protein
+HighermRNA-proteincorrelationisassociatedwith correlations showed an enrichment of upregulated ribosomal
+shorteroverallsurvival proteins, splicing factors,mRNAtransport, andmRNA surveil-
+Finally, we asked whether patient-level mRNA-protein correla- lance genes, providing potential cohorts of genes that could
+tionsareassociatedwithalterationsinprogression-freesurvival globallyalterposttranscriptionalcontrolincancercells(Figures
+oroverallsurvivalindifferentcancertypes.Wefirstfocusedon 4F–4I; Table S1; Figures S8A–S8C). Collectively, these results
+thesubsetofTCGAsampleswithintheCPTACdataset,whichin- suggest that aggressive tumors are generally associated with
+cludeswell-documentedsurvivaldata.Becausethenumberof reduced posttranscriptional regulation and warrant further
+patients with complete survival and mRNA-protein correlation studiestowardamechanisticunderstandingofhowtheoverall
+datawasgenerallyrelativelylow,wefirstcombinedallavailable levelofposttranscriptionalcontrolimpactspatientoutcome.
+proteogenomicTCGAdatasets.Tooursurprise,wefoundthat
+patients with cancer with higher mRNA-protein correlations DISCUSSION
+showedsignificantlyshorterprogression-freeandoverallsurvival
+inthecombineddataset(Figures4Aand4B)orinthesubsetof Precisiononcologyultimatelyrequiresaccurategeneexpression
+patients with ovarian and breast cancers (Figures S6A, S6B, monitoringtoinfertheactivityofproteinsinpatientswithcancer.
+Figure3. 55cancergenemutationsaltersystems-wideposttranscriptionalregulation
+(A)mRNA-proteincorrelationanalysisformutantversusnon-mutantpatientsreveals55genesthatsignificantlyalter(FDR<0.05)globalmRNA-proteincor-
+relationsinatleast4cancertypes.Allmutatedgenespresentinatleast9patientswereincludedintheanalysisfrom12patientcohorts.Thepanelshowsonly
+genesthatexhibitedasignificantchangeinmRNA-proteincorrelationsin4ormorecancertypes,asdeterminedbytheWilcoxonrank-sumtestandadjustedfor
+FDRusingtheBenjamini-Hochbergprocedure.OV_CPTAC:theCPTACOVcohort.NotethattheOVTCGAdatasetwasalsoincludedintheanalysisbutdidnot
+resultinanysignificantgenemutations.ThedotsarecoloredbythedifferenceinmedianmRNA-proteincorrelationsinmutantversuswildtype.
+(BandC)BoxplotsofthemRNA-proteincorrelationinp53mutantversuswild-typeandABCA13mutantversuswild-typepatients.Includedintheanalysiswere
+tumortypesthatshowedinR9patientsamutationinthegene.*p<0.05,Wilcoxonsigned-ranktest.
+(D)GenesetenrichmentforgeneswithalteredmRNA-proteincorrelationsinp53mutantpatients.Foreachgene,apermutationtestforp53mutantandwild-type
+samples(1,000permutationseach)wasemployed.ThepvalueofthedeltamRNA-proteinSpearmancorrelationfromthenulldistributionwasthenobtainedby
+thepermutations.Forthesignificantgenes,genesetenrichmentanalyses(GSEAs)werecarriedout.ShownareGOtermsenrichedin3ormoretumortypes.The
+completelistisshowninFigureS5.NES,normalizedenrichmentscorefromGSEA.
+(E)Theoncoprinttovisualizemultiplegenomicalterationeventsbyaheatmap.Theoccurrenceofthe55mutationsidentifiedin(A)isshownacrossthedifferent
+tumortypes,whereeachlinerepresentsapatientwiththemutation.
+CellReports42,113172,October31,2023 7
+ll
+OPENACCESS Report
+A B
+C D
+E F
+G H I
+(legendonnextpage)
+8 CellReports42,113172,October31,2023
+ll
+Report OPENACCESS
+However, gene expression quantification still heavily relies on tional regulation, prompting further investigation into whether
+mRNAlevels,anditiscriticaltounderstandthelevelofposttran- increasingtheabundanceofthesefactorswouldautomatically
+scriptionalregulatorymechanismsforspecificcohortsofgenes also reduce the level of posttranscriptional regulation. Experi-
+andhowtheydifferacrossdifferentcancertypes.Understanding mentallytestingthishypothesisisanticipatedtoyieldvaluable
+the extent of posttranscriptional regulation for specific driver insightsintosystems-levelposttranscriptionalregulationofcan-
+genesorcancertypesmayprovideentrypointstouncoverno- cercellsandwillshedlightonhowalteringthisregulatorystep
+desoftranslationalregulatorsorproteindegradationpathways mayimpactsurvivalofpatientswithcancer.
+andprovidenewtargetsforcancertherapy. WeprovideanoverviewofthemRNA-proteincorrelationsof
+Here,weexploitedproteogenomicsdatatoassessthepost- thedrivergenes,drugtargets,andtherapeuticandprognostic
+transcriptional regulatory landscape across 14 cancer types. genes as a resource and identify cohorts of genes that show
+We identify a cluster of translation-related genes that are strong posttranscriptional regulation. This set includes cancer
+stronglyposttranscriptionallyregulatedacrossallcancertypes, genes such as HRAS, KRAS, NRAS, CTNNB1, or RAC1. The
+including ribosomal proteins, eukaryotic initiation factors, and identified list of posttranscriptionally regulated cancer genes
+RNA-bindingproteins,suggestingthatmRNAtranslationisitself couldguidefuturestudiestoexaminetheintricatestepsofdriver
+subject to posttranscriptional regulation in cancer. Posttran- gene expression regulation and the molecular mechanisms of
+scriptionalregulationofmRNAtranslationcouldbeduetotrans- howproteinlevelsofthesecancergenesaredetermined.
+lational buffering of the protein synthesis machinery in cancer Furthermore,byexamininghowthemutationallandscapeof
+cells, with the goal of specifically maintaining the translational cancerimpactsmRNA-proteincorrelations,weidentifyasetof
+apparatusinthefaceofmutationsoraneuploidy.27Translational 55mutationsthatalterthelevelofposttranscriptionalregulation
+buffering can also occur in the context of equilibration, which acrossseveralcancertypes.Theseincludethewell-knowncan-
+buffers the transcriptional noise to maintain the stoichiometry cergenesp53andPTEN,bothassociatedwithlargelyunidirec-
+ofproteincomplexes,suchasribosomes.Finally,translational tionally altered levels of posttranscriptional control. It will be
+bufferingoftranslation-relatedgenescouldalsooccurtooffset interesting to dissect how these genes modify systems-wide
+perturbationsintroducedbymutations.Perturbationofthetran- posttranscriptional regulation and how the consequences of
+scription factor p53 or the estrogen receptor (ERa) has been these changes—which may again involve many translation-
+showntoinducebuffering,wherebyalterationsinmRNAlevels relatedgenes(Figure3D)—impactpatientsurvival.Furthermore,
+areoffsetbytranslationalbuffering.28,29Moreover,translational theABCA13mutationwasconsistentlylinkedtoreducedmRNA
+offsetting seems widespread in prostate cancer cells,29 which correlations in 7 cancer types. ABCA13 is likely involved in
+couldpartlyalsoexplaintheoveralllowmRNA-proteincorrela- cholesterol internalization by endocytic retrograde transport,
+tionintheprostatecancerdataset(Figure1D).Inaddition,the anditiscurrentlyunknownhowthisfunctionmaybemechanis-
+identification of a second cohort of oxidative phosphorylation tically linked to systems-wide posttranscriptional regulation in
+genes suggests similar translational buffering mechanisms to cancer.30Ontheotherhand,TTNmutationswereconsistently
+sustainanotheressentialcancercellfunction.Sincemaintaining associated with increased mRNA-protein correlations. TTN is
+thetranslationalapparatus’slevelislikelycriticalforrapidcancer oneofthelargestgenesinthegenome,encodingamusclepro-
+cellproliferation,mechanisticinsightintotranslationalbuffering teinspanningfromthe Z-diskto theM-band withinthe sarco-
+oftranslation-relatedgenescouldprovideattractivenewtargets mere,withnoapparentroleingeneexpressioncontrolorpost-
+forcancertherapy. transcriptional regulation.31 The identified gene mutations that
+OurfindingthatthecohortofpatientswithhighmRNA-protein result in modified posttranscriptional regulation may prompt
+correlation and shorter survival exhibit upregulated ribosomal furtherstudiestounderstandhowthesegenesimpacttransla-
+proteins,splicingfactors,andmRNAtransportproteins(Figures tionorproteindegradationonasinglegenebasisincancer.
+4G–4I) brings into question whether these proteins directly Finally,wefoundthathighermRNA-proteincorrelationsinpa-
+mediate higher mRNA-protein correlations or even influence tients are associated with shorter progression-free and overall
+theoverallsurvivalofpatientswithcancer.Thesefindingsalso survivalacrossdifferenttypesofcancer.Thisobservationwas
+raise the hypothesis that these translation-related factors may surprising,asourinitialassumptionwasthataggressivecancer
+actasarate-limitingstepforgeneexpressionandposttranscrip- cellsmightreprogramposttranscriptionalnetworksinawaythat
+Figure4. HighermRNA-proteincorrelationisassociatedwithshorterpatientsurvival
+(A–C)HighermRNA-proteincorrelationisassociatedwithshorterprogression-freeandoverallsurvivalinTCGApatients.Kaplan-Meierprogression-freeand
+overallsurvivalcomparisonofthe1/3ofpatientswiththehighestsample-levelmRNA-proteinSpearmancorrelationswiththe1/3ofpatientswiththelowest
+mRNA-proteinSpearmancorrelations.pvaluesindicateastandardlogranktest.TCGAalldatasetsincludethefollowingtumortypesandpatientnumbers:
+breastcancer(BRCA)105,colonadenocarcinoma(COAD)58,ovariancancer(OV)94,rectumadenocarcinoma(READ)30.Pediatricbraincancer:197patients.
+(DandE)Thehazardratioforanincreaseof0.1inmRNA-proteinSpearmancorrelation.TheCoxproportionalhazardsregressionmodelwasusedtofitcovariates
+suchasmRNA-proteincorrelation,age,tumorpurity,andtumortypetoprogression-freeandoverallsurvivalinTCGAdataset.Thetumortypesareencodedas
+0breast,1colon,and2ovary,indicatingthatbreastcancerhasthestrongestimpactonsurvival.pvaluesindicatestatisticalsignificancefromaWaldtest
+performedonCoxproportionalhazardsregressionanalysis.
+(F)VolcanoplotshowingproteinlevelchangesinthetopversusbottomtertilemRNA-proteincorrelationpatientsinbreastcancer.
+(G–I)GSEAofthepatientswithhighversuslowmRNA-proteincorrelationsrevealsalteredcohortsofposttranscriptionalregulatorsacrossdifferentcancertypes.
+ProteinlevelsoftopversusbottomtertilemRNA-proteincorrelationpatientswerecomparedinpatientswithbreast,ovarian,andpediatricbraincancers.The
+significantlychangedproteinswereanalyzedbyGSEA.NES,normalizedenrichmentscore;FDR,falsediscoveryrate.
+CellReports42,113172,October31,2023 9
+ll
+OPENACCESS Report
+woulddecreasemRNA-proteincorrelations.However,analter- B Survivalanalysis
+nativeexplanationforthisobservationisthataggressivecancer B Scripts
+cells deactivate and reprogram the intricate systems-wide d QUANTIFICATIONANDSTATISTICALANALYSIS
+posttranscriptional regulatory mechanisms already present in B Dataanalysis
+non-malignant cells, resulting in overall higher mRNA-protein
+correlations. This possibility is further supported by the notion SUPPLEMENTALINFORMATION
+that the normal tissues consistently show lower correlations
+Supplemental information can be found online at https://doi.org/10.1016/j.
+thanthecorrespondingtumors(Figure1E).Giventhesubstantial
+celrep.2023.113172.
+differences seen, for example, in the median progression-free
+survivalofthesubsetofTCGApatients(Figure4A),mRNA-pro- ACKNOWLEDGMENTS
+teincorrelationsandtheunderlyingnodesofregulationshould
+befurtherevaluatedasprognosticfactorsforprecisiononcology WethankallmembersoftheSendoellabforhelpfuldiscussions.TheSendoel
+andwillrequiredirectmonitoringofmRNAtranslationandpro- labwassupportedbytheSwissNationalScienceFoundationProfessorship
+grant(grantnumber176825),bytheEuropeanResearchCouncil(ERC)under
+tein degradation. Collectively, our systematic assessment of
+the European Union0s Horizon 2020 research and innovation programme
+posttranscriptionalregulationformsthebasisforfurtherexami-
+(grant agreement no. 759006), by the Swiss Cancer Research Foundation
+nation into how posttranscriptional regulatory mechanisms
+(KFS-5023-02-2020-R),andbytheHelmutHortenFoundationandtheNa-
+affectcancercellbehaviorandpatientoutcomes. tionalCenterofCompetenceinResearch(NCCR)onRNAandDisease,funded
+bytheSNSF(grantnumber205601).
+Limitationsofthestudy
+AUTHORCONTRIBUTIONS
+Whilethepubliclyavailableproteogenomicdatasetsencompass
+14differenttumortypesandofferavaluableperspectiveonthe
+U.G.andA.S.conceivedthestudy.U.G.ranthebioinformaticanalyseswith
+posttranscriptionallandscapeincancer,therearecertainlimita- supervisionfromA.S.U.G.andA.S.wrotethemanuscript.
+tionstoconsider.Onelimitationistherelativelysmallsamplesize
+percancertype,particularlyregardingthesurvivaldata,which DECLARATIONOFINTERESTS
+restrictedourabilitytocontrolformultiplecovariates.Inaddition,
+Theauthorsdeclarenocompetinginterests.
+although we control for tumor purity, our approach may miss
+specificmRNA-proteincorrelationsinsubpopulationsofcancer
+Received:March29,2023
+cellsorstromalcells.Futureworkwithlargersamplesizesand Revised:July28,2023
+additional tumor types may provide further insights into the Accepted:September7,2023
+role of mRNA-protein correlations in cancer. Furthermore, Published:September25,2023
+althoughmRNA-proteincorrelationsserveasausefulproxyfor
+REFERENCES
+thelevelofposttranscriptionalregulation,theapproachcannot
+discern between translational regulation and protein degrada-
+1.Zhang,B.,Wang,J.,Wang,X.,Zhu,J.,Liu,Q.,Shi,Z.,Chambers,M.C.,
+tion. Our analysesmay alsomiss differencesin mRNA-protein Zimmerman,L.J.,Shaddox,K.F.,Kim,S.,etal.(2014).Proteogenomic
+correlations across transcript isoforms, which in most cases characterization of human colon and rectal cancer. Nature 513,
+cannotbecapturedintheproteomicsdata.Infuturestudies,it 382–387.https://doi.org/10.1038/nature13438.
+will be interesting to specifically investigate the impact of 2.Vogel,C.,andMarcotte,E.M.(2012).Insightsintotheregulationofprotein
+translationalregulationincomparisontoproteindegradationin abundancefromproteomicandtranscriptomicanalyses.Nat.Rev.Genet.
+13,227–232.https://doi.org/10.1038/nrg3185.
+determining mRNA-protein correlations and their association
+withpatientsurvival. 3.Schwanha¨usser,B.,Busse,D.,Li,N.,Dittmar,G.,Schuchhardt,J.,Wolf,
+J.,Chen,W.,andSelbach,M.(2011).Globalquantificationofmammalian
+geneexpressioncontrol.Nature473,337–342.https://doi.org/10.1038/
+STAR+METHODS
+nature10098.
+4.Liu,Y.,Beyer,A.,andAebersold,R.(2016).OntheDependencyofCellular
+Detailedmethodsareprovidedintheonlineversionofthispaper ProteinLevelsonmRNAAbundance.Cell165,535–550.https://doi.org/
+andincludethefollowing: 10.1016/j.cell.2016.03.014.
+5.Jovanovic,M.,Rooney,M.S.,Mertins,P.,Przybylski,D.,Chevrier,N.,Sat-
+d KEYRESOURCESTABLE ija,R.,Rodriguez,E.H.,Fields,A.P.,Schwartz,S.,Raychowdhury,R.,etal.
+d RESOURCEAVAILABILITY (2015). Immunogenetics. Dynamic profiling of the protein life cycle in
+B Leadcontact responsetopathogens.Science347,1259038.https://doi.org/10.1126/
+B Materialsavailability SCIENCE.1259038.
+B Dataandcodeavailability 6.Zhang,Y.,Chen,F.,Chandrashekar,D.S.,Varambally,S.,andCreighton,
+C.J.(2022).Proteogenomiccharacterizationof2002humancancersre-
+d METHODDETAILS
+veals pan-cancer molecular subtypes and associated pathways. Nat.
+B Datasource
+Commun.13,2669–2719.https://doi.org/10.1038/s41467-022-30342-3.
+B Mutationanalysis
+7.Semenza,G.L.(2001).HIF-1andmechanismsofhypoxiasensing.Curr.
+B Partialcorrelationanalysiswithtumorpurity
+Opin. Cell Biol. 13, 167–171. https://doi.org/10.1016/S0955-0674(00)
+B Differentialexpression 00194-0.
+B Correlationanalysis 8.Wang,L.B.,Karpova,A.,Gritsenko,M.A.,Kyle,J.E.,Cao,S.,Li,Y.,Ryku-
+B Pathwayenrichment nov, D., Colaprico, A., Rothstein, J.H., Hong, R., et al. (2021).
+10 CellReports42,113172,October31,2023
+ll
+Report OPENACCESS
+Proteogenomic and metabolomic characterization of human glioblas- 21.Bailey,M.H.,Tokheim,C.,Porta-Pardo,E.,Sengupta,S.,Bertrand,D.,
+toma. Cancer Cell 39, 509–528.e20. https://doi.org/10.1016/J.CCELL. Weerasinghe,A.,Colaprico,A.,Wendl,M.C.,Kim,J.,Reardon,B.,etal.
+2021.01.006. (2018).ComprehensiveCharacterizationofCancerDriverGenesandMu-
+9.Petralia,F.,Tignor,N.,Reva,B.,Koptyra,M.,Chowdhury,S.,Rykunov,D., tations.Cell173,371–385.e18.https://doi.org/10.1016/j.cell.2018.02.060.
+Krek,A.,Ma,W.,Zhu,Y.,Ji,J.,etal.(2020).IntegratedProteogenomic 22.Kasteri,J.,Das,D.,Zhong,X.,Persaud,L.,Francis,A.,Muharam,H.,and
+CharacterizationacrossMajorHistologicalTypesofPediatricBrainCan- Sauane,M.(2018).TranslationControlbyp53.Cancers10.https://doi.
+cer. Cell 183, 1962–1985.e31. https://doi.org/10.1016/J.CELL.2020. org/10.3390/CANCERS10050133.
+10.044.
+23.Tiu,G.C.,Kerr,C.H.,Forester,C.M.,Krishnarao,P.S.,Rosenblatt,H.D.,
+10.Huang,C.,Chen,L.,Savage,S.R.,Eguez,R.V.,Dou,Y.,Li,Y.,daVeiga
+Raj,N.,Lantz,T.C.,Zhulyn,O.,Bowen,M.E.,Shokat,L.,etal.(2021).A
+Leprevost,F.,Jaehnig,E.J.,Lei,J.T.,Wen,B.,etal.(2021).Proteoge-
+p53-dependenttranslationalprogramdirectstissue-selectivephenotypes
+nomicinsightsintothebiologyandtreatmentofHPV-negativeheadand
+inamodelofribosomopathies.Dev.Cell56,2089–2102.e11.https://doi.
+neck squamous cell carcinoma. Cancer Cell 39, 361–379.e16. https://
+org/10.1016/J.DEVCEL.2021.06.013.
+doi.org/10.1016/J.CCELL.2020.12.007.
+24.Neshat,M.S.,Mellinghoff,I.K.,Tran,C.,Stiles,B.,Thomas,G.,Petersen,
+11.Satpathy,S.,Krug,K.,JeanBeltran,P.M.,Savage,S.R.,Petralia,F.,Ku-
+R.,Frost,P.,Gibbons,J.J.,Wu,H.,andSawyers,C.L.(2001).Enhanced
+mar-Sinha,C.,Dou,Y.,Reva,B.,Kane,M.H.,Avanessian,S.C.,etal.
+sensitivityofPTEN-deficienttumorstoinhibitionofFRAP/mTOR.Proc.
+(2021).Aproteogenomicportraitoflungsquamouscellcarcinoma.Cell
+Natl. Acad. Sci. USA 98, 10314–10319. https://doi.org/10.1073/pnas.
+184,4348–4371.e40.https://doi.org/10.1016/J.CELL.2021.07.016.
+171076798.
+12.Gillette,M.A.,Satpathy,S.,Cao,S.,Dhanasekaran,S.M.,Vasaikar,S.V.,
+25.Tee,A.R.,andBlenis,J.(2005).mTOR,translationalcontrolandhuman
+Krug,K.,Petralia,F.,Li,Y.,Liang,W.W.,Reva,B.,etal.(2020).Proteoge-
+disease. Semin. Cell Dev. Biol. 16, 29–37. https://doi.org/10.1016/J.
+nomic Characterization Reveals Therapeutic Vulnerabilities in Lung
+SEMCDB.2004.11.005.
+Adenocarcinoma. Cell 182, 200–225.e35. https://doi.org/10.1016/J.
+CELL.2020.06.013. 26.Podsypanina,K.,Lee,R.T.,Politis,C.,Hennessy,I.,Crane,A.,Puc,J.,Ne-
+13.Sinha,A.,Huang,V.,Livingstone,J.,Wang,J.,Fox,N.S.,Kurganovs,N., shat,M.,Wang,H.,Yang,L.,Gibbons,J.,etal.(2001).Aninhibitorof
+Ignatchenko,V.,Fritsch,K.,Donmez,N.,Heisler,L.E.,etal.(2019).The mTOR reduces neoplasia and normalizes p70/s6 kinase activity in
+ProteogenomicLandscapeofCurableProstateCancer.CancerCell35, Pten+/-mice.Proc.Natl.Acad.Sci.USA98,10320–10325.https://doi.
+414–427.e6.https://doi.org/10.1016/J.CCELL.2019.02.005. org/10.1073/pnas.171060098.
+14.Dou,Y.,Kawaler,E.A.,CuiZhou,D.,Gritsenko,M.A.,Huang,C.,Blumen- 27.Zhang,Z.,andPresgraves,D.C.(2017).Translationalcompensationof
+berg, L., Karpova, A., Petyuk, V.A., Savage, S.R., Satpathy, S., et al. genecopynumberalterationsbyaneuploidyinDrosophilamelanogaster.
+(2020).ProteogenomicCharacterizationofEndometrialCarcinoma.Cell NucleicAcidsRes.45,2986–2993.https://doi.org/10.1093/NAR/GKX106.
+180,729–748.e26.https://doi.org/10.1016/J.CELL.2020.01.026.
+28.Liang,S.,Bellato,H.M.,Lorent,J.,Lupinacci,F.C.S.,Oertlin,C.,vanHoef,
+15.Zhang,H.,Liu,T.,Zhang,Z.,Payne,S.H.,Zhang,B.,McDermott,J.E., V.,Andrade,V.P.,Roffe´,M.,Masvidal,L.,Hajj,G.N.M.,andLarsson,O.
+Zhou,J.Y.,Petyuk,V.A.,Chen,L.,Ray,D.,etal.(2016).IntegratedProteo- (2018).Polysome-profiling insmall tissue samples. Nucleic Acids Res.
+genomicCharacterizationofHumanHigh-GradeSerousOvarianCancer. 46,e3.https://doi.org/10.1093/nar/gkx940.
+Cell166,755–765.https://doi.org/10.1016/J.CELL.2016.05.069.
+29.Lorent,J.,Kusnadi,E.P.,VanHoef,V.,Rebello,R.J.,Leibovitch,M.,Ris-
+16.Mun,D.G.,Bhin,J.,Kim,S.,Kim,H.,Jung,J.H.,Jung,Y.,Jang,Y.E.,Park,
+tau,J.,Chen,S.,Lawrence,M.G.,Szkop,K.J.,Samreen,B.,etal.(2019).
+J.M.,Kim,H.,Jung,Y.,etal.(2019).ProteogenomicCharacterizationof Translationaloffsettingasamodeofestrogenreceptora-dependentregu-
+Human Early-Onset Gastric Cancer. Cancer Cell 35, 111–124.e10.
+lation of gene expression. EMBO J. 38, e101323. https://doi.org/10.
+https://doi.org/10.1016/J.CCELL.2018.12.003.
+15252/EMBJ.2018101323.
+17.Onuma,K.,Ochiai,M.,Orihashi,K.,Takahashi,M.,Imai,T.,Nakagama,
+30.Nakato,M.,Shiranaga,N.,Tomioka,M.,Watanabe,H.,Kurisu,J.,Ken-
+H.,andHippo,Y.(2013).Geneticreconstitutionoftumorigenesisinpri-
+gaku, M., Komura, N., Ando, H., Kimura, Y., Kioka, N., and Ueda, K.
+mary intestinal cells. Proc. Natl. Acad. Sci. USA 110, 11127–11132.
+(2021).ABCA13dysfunctionassociatedwithpsychiatricdisorderscauses
+https://doi.org/10.1073/pnas.1221926110.
+impairedcholesteroltrafficking.J.Biol.Chem.296,100166.https://doi.
+18.Vasaikar,S.,Huang,C.,Wang,X.,Petyuk,V.A.,Savage,S.R.,Wen,B., org/10.1074/JBC.RA120.015997.
+Dou,Y.,Zhang,Y.,Shi,Z.,Arshad,O.A.,etal.(2019).Proteogenomic
+31.Chauveau,C.,Rowell,J.,andFerreiro,A.(2014).Arisingtitan:TTNreview
+AnalysisofHumanColonCancerRevealsNewTherapeuticOpportunities.
+and mutation update. Hum. Mutat. 35, 1046–1059. https://doi.org/10.
+Cell177,1035–1049.e19.https://doi.org/10.1016/J.CELL.2019.03.030.
+1002/HUMU.22611.
+19.Jiang,L.,Wang,M.,Lin,S.,Jian,R.,Li,X.,Chan,J.,Dong,G.,Fang,H.,
+Robinson,A.E.,andGTExConsortium;andSnyder,M.P.(2020).AQuan- 32.Liu,J.,Lichtenberg,T.,Hoadley,K.A.,Poisson,L.M.,Lazar,A.J.,Cher-
+titativeProteomeMapoftheHumanBody.Cell183,269–283.e19.https:// niack, A.D., Kovatich, A.J., Benz, C.C., Levine, D.A., Lee, A.V., et al.
+doi.org/10.1016/J.CELL.2020.08.036. (2018).Cancer Genome Atlas Research Network; HuH.AnIntegrated
+TCGAPan-CancerClinicalDataResourcetoDriveHigh-QualitySurvival
+20.Yoshihara, K., Shahmoradgoli, M., Martı´nez, E., Vegesna, R., Kim, H.,
+Outcome Analytics. Cell 173, 400–416.e11. https://doi.org/10.1016/j.
+Torres-Garcia,W.,Trevin˜o,V.,Shen,H.,Laird,P.W.,Levine,D.A.,etal.
+cell.2018.02.052.
+(2013).Inferringtumourpurityandstromalandimmunecelladmixture
+fromexpressiondata.Nat.Commun.41,1–11.https://doi.org/10.1038/ 33.Vallat,R.(2018).Pingouin:statisticsinPython.J.OpenSourceSoftw.3,
+ncomms3612. 1026.https://doi.org/10.21105/JOSS.01026.
+CellReports42,113172,October31,2023 11
+ll
+OPENACCESS Report
+STAR+METHODS
+KEYRESOURCESTABLE
+REAGENTorRESOURCE SOURCE IDENTIFIER
+Depositeddata
+mRNAandproteinexpressiondataof2002 https://github.com/chadcreighton/ https://doi.org/10.1038/
+primarytumorsfrom14cancertypes cancer-proteomics-compendium-n2002 s41467-022-30342-3
+CPTACmutation,RNA-seqandproteomics http://linkedomics.org https://doi.org/10.1093/nar/gkx1090
+data
+TCGASurvivalData Liuetal.,201832 https://doi.org/10.1016/j.cell.2018.02.052
+OncoKB https://www.oncokb.org N/A
+Softwareandalgorithms
+R(Version4.1.1) https://www.r-project.org N/A
+pheatmap https://cran.r-project.org/package= N/A
+pheatmap
+survivalAnalysis(Version0.3.0) https://cran.r-project.org/package= N/A
+survivalAnalysis
+EnrichR https://maayanlab.cloud/Enrichr/ https://doi.org/10.1002/cpz1.90
+circlize https://github.com/jokergoo/circlize https://doi.org/10.1093/bioinformatics/
+btu393
+GSEApy(Version0.10.7) https://github.com/zqfang/GSEApy N/A
+Pandas(Version1.5.2) https://pandas.pydata.org/ N/A
+Python(Version3.10) https://www.python.org N/A
+Maincodesusedinthispaper Thisstudy https://zenodo.org/record/8298171
+RESOURCEAVAILABILITY
+Leadcontact
+Furtherinformationandrequestsforresourcesshouldbedirectedtotheleadcontact,AtamanSendoel(ataman.sendoel@uzh.ch).
+Materialsavailability
+Thisstudydidnotgeneratenewuniquereagents.
+Dataandcodeavailability
+d Thisstudydidnotgeneratenewuniquereagents.
+d Themainscriptsfortheanalysestoreproducetheresultsinthispaperwillbeavailableasofthedateofpublicationonour
+GitHubrepository:https://github.com/sendoellab/pancan.TheZenodoDOIislistedinthekeyresourcestable.Theassembled
+mRNAandproteinexpressiondataof2002primarytumorsfrom14cancertypesofprimarilyCPTACandothercohorts6isavail-
+ableat:https://github.com/chadcreighton/cancer-proteomics-compendium-n2002.Mutation,clinicalandotherdataforthe
+samplesisavailablefromtheLinkedOmicsportal:http://linkedomics.org.
+d Anyadditionalinformationrequiredtoreanalyzethedatareportedinthisworkpaperisavailablefromtheleadcontactupon
+request.
+METHODDETAILS
+Datasource
+TocalculatethemRNA-proteinSpearmancorrelation,weutilizedthepreviouslyassembledmRNAandproteinexpressiondataof
+2002 primary tumors from 14 cancer types of primarily CPTAC and other cohorts,6 available at: https://github.com/
+chadcreighton/cancer-proteomics-compendium-n2002.Thenumberofsamplesforeachcancertypeusedintheanalysisisasfol-
+lows:ColorectalAdenocarcinoma(n=187),GastricCancer(n=80),Glioblastoma(n=100),HeadandNeckSquamousCellCarci-
+noma(n=108),HepatocellularCarcinoma(n=165),LungAdenocarcinoma(n=111),LungSquamousCellCarcinoma(n=110),
+12 CellReports42,113172,October31,2023
+ll
+Report OPENACCESS
+OvarianSerousCystadenocarcinoma(n=269),PancreaticDuctalAdenocarcinoma(n=137),PediatricBrainTumors(n=219),Pros-
+tateAdenocarcinoma(n=76),RenalCellCarcinoma(n=110),andUterineCorpusEndometrialCarcinoma(n=100).Theunitsfor
+mRNAandproteinexpressionarelog2FPKMandlog2TMTRatio,respectively.
+Weobtainedthemutation,RNA-seqandproteomicsdataforeachcancertypefromtheLinkedOmicsportal.Thepediatricbrain
+cancermutationdatawereobtainedfromhttps://www.cbioportal.org/study/summary?id=brain_cptac_2020.
+ProteomicsDataforDifferentialExpressionAnalysis:Thelog-rationormalizedproteomedataforbreastandovariancancertumor
+sampleswereobtainedfromtheLinkedOmicsportal.TheproteomicsdataforpediatricbraincancerwereobtainedfromtheCbio-
+portal study: https://www.cbioportal.org/study/summary?id=brain_cptac_2020. The list of 299 driver genes was obtained from
+Baileyetal.(Baileyetal.,2018).Weassembledthe111cancertargetgenesfromtheOncoKBportal(https://www.oncokb.org)to
+plottheircorrelationheatmap.
+SurvivalData:wedownloadedthesurvivaldatafortheTCGAsampleswithproteomicsdataforbreast,ovary,colonandpancreatic
+cancerfromLiuetal.(Liuetal.,2018).Thepediatricbraincancersurvivaldataweredownloadedfromhttps://pedcbioportal.kidsfirstdrc.
+org/study/summary?id=pbta_all.Wheremultipletumorsweretakenfromthesamepatient,weconsideredonlyonetumorinthedown-
+streamanalysesandtookthefirstsampleforeachpatient.
+Mutationanalysis
+Weselectedthesamplespresentinallthreedatasets(mutation,RNAsequencingandproteomics)toanalyzetheeffectofgenemu-
+tationsonmRNA-proteincorrelations.TheTCGAandCPTACbreastandovariancancercohortswereanalyzedseparatelytomiti-
+gateanycohort-specificconfoundingfactors.Weselectedgeneswithmutationsinatleast9patientsineachcohortandmutations
+thatoccurinatleast3cohortstocalculatethemRNA-proteincorrelationinmutatedandnon-mutatedpatientgroups.Foreach
+group,wecalculatedgene-levelmRNA-proteinSpearmancorrelationsseparately.Thegenesexpressedinatleast25%ofsamples
+wereconsideredfortheanalysis.WetestedifthemRNA-proteincorrelationsaresignificantlyaltereduponmutationcomparedtothe
+remainingtumors,basedonatwo-sidednon-parametricWilcoxonrank-sumtest.Thepvaluesfrommultiplecancertypeswere
+adjustedforFDRusingtheBenjamini-Hochbergprocedure.WeselectedanFDRcutoffof<0.05inatleast4cancertypes,which
+resultedin55mutationsthatsignificantlyaltermRNA-proteincorrelations.
+Toassesswhetherthedeltacorrelationobservedinmutantsamplesisduetorandomchance,apermutationtestwascarriedout
+forTP53mutations.Briefly,werandomlyselectedn(numberofTP53mutantsamples)samplesand(total-n)samplesandcalculated
+deltamRNA-proteinSpearmancorrelationinmutantvs.wildtype1000timesforeachgene.Next,wecalculatedempiricalpvaluesof
+thedeltacorrelationofeachgenewithTP53mutationfromthenulldistributionobtainedbythepermutations.Thepvaluesforeach
+geneinmultiplecancertypeswerecombinedbyFisher’smethodusingthemetappackageinR.
+Partialcorrelationanalysiswithtumorpurity
+SincetheRNAsequencingandproteomicsanalyseswerecarriedoutwithbulktumorsamples,thecorrelationanalysisresultscould
+beconfoundedbythepresenceofimmuneandstromacellsinthetumor.Inordertocontrolforimmuneandstromacellsinthesam-
+ples,thetumorpuritywascalculated,whichistheproportionofcancercellsinthetumor.Weestimatedthetumorofeachsample
+from the RNA sequencing data utilizing the tidyestimate (https://github.com/KaiAragaki/tidyestimate) R package based on the
+ESTIMATE algorithm, which calculates the tumor purity based on the enrichment of immune and stroma-specific genes in the
+RNAsequencingdata.20Next,weusedthetumorpuritydataasanadditionalcovariatetoestimatetheSpearmanpartialcorrelations
+betweenRNAandproteinusingthePythonlibrarypingouin.33ThepartialSpearmancorrelationswerecalculatedfromtheSpearman
+correlationoftheresidualsfromthetwolinearregressionsRNAexpression(cid:2)tumorpurityandproteinexpression(cid:2)tumorpurity.
+Differentialexpression
+DifferentialproteinexpressionanalysiswasconductedontheupperandlowertertilepatientsbasedontheSpearmancorrelationof
+theTCGA/CPTACcohortsofbreastandovariancancerandpediatricbraincancer.Wecarriedoutdifferentialexpressionanalysisof
+uppervs.lowertertilepatientsutilizingWelch’sttestwithunequalvariance.Theproteinsexpressedinatleast10samplesforeach
+group were considered for the analysis. We also compared the results with the non-parametric Wilcoxon rank-sum test, which
+yieldedsimilarresults.Inthecaseofmultiplecomparisons,thepvalueswerecorrectedforFDRusingtheBenjamini-Hochbergpro-
+cedure(notforthepairwisecomparisonsinFigures2A,3Band3C).Thelog2foldchangewascalculatedfromtheratioofmean
+expressionineachgroup.
+Correlationanalysis
+ThecorrelationanalysiswascarriedoutinPythonutilizingtheScipylibraryandinR.Thenumberofgenesdetectedpersampleby
+proteomicsislowerthanbyRNAsequencing.Forgene-levelmRNA-proteincorrelations,weonlyselectedthegenesexpressedin
+>25%ofsamplesbothinmRNAandproteintoreduceanybiasarisingfromproteinsexpressedinveryfewsamples.Inthecaseof
+mutations,weonlyconsideredgenesmutatedinatleast10%ofpatientsamples.Alltheproteinisoformswereconsideredasone
+genetocalculategene-levelcorrelations.ThecorrelationsmentionedinthepaperrefertoSpearman’srankcorrelation.Wechosethe
+SpearmancorrelationoverthePearsoncorrelationtominimizeanybiasresultingfromthenormalizationmethodusedinprocessing
+proteomicsandRNA-sequencingdata.SincetheSpearmancorrelationisbasedonrank,itminimizesthechanceofintroducinga
+CellReports42,113172,October31,2023 13
+ll
+OPENACCESS Report
+linearrelationshipbetweenthevariablesintroducedbythenormalizationmethods,suchas,forinstance,aZscoreormedianabso-
+lutedeviation.Thus,theadvantageoftheSpearmancorrelationisthattherankingofgenesshouldbemostlypreserved,irrespective
+ofthenormalizationmethod.
+Pathwayenrichment
+Theover-representationanalysisforthepathwayenrichmentwasperformedbyEnrichR(https://maayanlab.cloud/Enrichr)basedon
+Fisher’sexacttestandcustomRscripts.WealsoperformedpathwayenrichmentanalysisbytheGSEApypackageutilizingthe
+GSEApre-rankedapproach,whichenablestheanalysisofpositivelyandnegativelyregulatedgenesatthesametime.Weperformed
+GSEApre-rankedanalysisofgenessortedbytheirdifferentialexpressionexpressedaslog2foldchangeinbreast,ovaryandpedi-
+atricbraincancer.WesetanFDRcutoffof0.01toselectDEgenesinbreastandpediatricbraincancerand0.05forovariancancer.
+WeanalyzedtheenrichmentofGOterms,MSigDBhallmarkandKEGGhumangenesetsforGSEAanalysis.AnFDRcutoffvalueof
+0.1wasusedtodeterminegenesetenrichmentsfromGSEA.
+Survivalanalysis
+SurvivalanalysiswasconductedinRusingthesurvival,survivalAnalysisandsurvminerlibrary.TheCoxProportionalHazardsregres-
+sionmodelwasusedtofitthecorrelationdatatosurvivalwhilecontrollingfortumorpurity,age,andtumortypetoobtaintheHazard
+Ratio.Kaplan-Meieranalysiswasperformedonthepatientswithupperandbottomtertiles(top1/ versusbottom1/ )ofSpearman
+3 3
+sample-levelcorrelations.Thepvalueswerecomputedbyalogranktest.
+Scripts
+ThemainscriptsfortheanalysestoreproducetheresultsinthispaperwillbeavailableonourGitHubrepository:https://github.com/
+sendoellab/pancan.
+QUANTIFICATIONANDSTATISTICALANALYSIS
+Dataanalysis
+Theanalysiswascarriedoutusingin-housePython3.9andR4.1scripts.Datawranglingwasdonewiththepandaslibraryinpython
+andtidyverselibraryinR.HeatmapsandCircosplotswerecreatedusingtheComplexHeatmap,pheatmapandcirclizepackages,
+respectively.Otherplotsweremadeusingtheggplot2libraryinR.Thepvaluesfromcomparingdistributionswereobtainedbythe
+Wilcoxonrank-sumtest.AllpvalueswereadjustedforFalseDiscoveryRate(FDR)utilizingtheBenjamini-Hochbergprocedure.The
+boxplotsrepresent5%(lowerwhisker),25%(lowerbox),50%(median),75%(upperbox),and95%(upperwhisker)ofthedistribu-
+tions.Weselectedgeneswithvaliddatain>5cancertypes(maximally9missingoutof14datasets)fortheCircosheatmapplots.
+Completegenesetenrichmentanalysis(GSEA)ofthepatientswithhighversuslowmRNA-proteincorrelationsrevealsalteredco-
+hortsofposttranscriptionalregulatorsandotherprocessesacrossdifferentcancertypes.Proteinlevelsoftopversusbottomtertile
+mRNA-proteincorrelationpatientswerecomparedinbreast,ovarianandpediatricbraincancerpatients.Thesignificantlychanged
+proteinswereanalyzedbyGSEA.NES:normalizedenrichmentscore.FDR:falsediscoveryrate.
+14 CellReports42,113172,October31,2023

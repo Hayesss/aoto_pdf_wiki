@@ -1,0 +1,26 @@
+[workspace]
+authors = ["Developer <>"]
+channels = ["conda-forge"]
+name = "llm-wiki"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+# 处理 inbox/ 中所有待处理 PDF
+process-pdfs = "python _meta/wiki_pipeline.py --process"
+# 监控 inbox/ 目录
+watch-inbox = "python _meta/wiki_pipeline.py --watch"
+# 更新索引
+update-index = "python _meta/wiki_pipeline.py --update-index"
+
+[dependencies]
+python = ">=3.11"
+watchdog = ">=3.0"        # 文件监控
+trafilatura = ">=1.6"     # 网页提取
+markdownify = ">=0.11"    # HTML转MD
+feedparser = ">=6.0"      # RSS解析
+pypdf = ">=4.0"           # 轻量PDF读取
+faster-whisper = ">=1.0"  # 音频转录
+
+[pypi-dependencies]
+marker-pdf = ">=1.0"       # PDF高质量提取
