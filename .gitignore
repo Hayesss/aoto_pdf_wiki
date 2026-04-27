@@ -1,3 +1,19 @@
 # pixi environments
 .pixi/*
 !.pixi/config.toml
+
+# Generated paper notes (auto-created by wiki_pipeline.py)
+papers/*
+!papers/.gitkeep
+
+# Processed PDFs
+processed/*
+!processed/.gitkeep
+
+# Failed processing
+failed/*
+!failed/.gitkeep
+
+# Obsidian
+.obsidian/workspace*
+.obsidian/graph.json
