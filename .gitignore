@@ -6,6 +6,10 @@
 papers/*
 !papers/.gitkeep
 
+# Raw extracted content from marker-pdf (large, reproducible)
+raw/papers/*
+!raw/papers/.gitkeep
+
 # Processed PDFs
 processed/*
 !processed/.gitkeep
