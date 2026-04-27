@@ -1,0 +1,7 @@
+watchdog>=3.0
+trafilatura>=1.6
+markdownify>=0.11
+feedparser>=6.0
+pypdf>=4.0
+marker-pdf>=1.0
+faster-whisper>=1.0

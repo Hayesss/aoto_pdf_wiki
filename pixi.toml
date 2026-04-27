@@ -12,6 +12,8 @@ process-pdfs = "python _meta/wiki_pipeline.py --process"
 watch-inbox = "python _meta/wiki_pipeline.py --watch"
 # 更新索引
 update-index = "python _meta/wiki_pipeline.py --update-index"
+# 部署验证
+verify-setup = "python _meta/verify-setup.py"
 
 [dependencies]
 python = ">=3.11"
@@ -20,7 +22,8 @@ trafilatura = ">=1.6"     # 网页提取
 markdownify = ">=0.11"    # HTML转MD
 feedparser = ">=6.0"      # RSS解析
 pypdf = ">=4.0"           # 轻量PDF读取
-faster-whisper = ">=1.0"  # 音频转录
 
 [pypi-dependencies]
-marker-pdf = ">=1.0"       # PDF高质量提取
+# 注意: marker-pdf 依赖较重且可能与 conda-forge 的 regex 版本冲突。
+# 如果 pixi install 失败，请手动安装: pip install marker-pdf faster-whisper
+faster-whisper = ">=1.0, <2.0"  # 音频转录

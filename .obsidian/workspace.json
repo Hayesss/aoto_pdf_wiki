@@ -11,17 +11,14 @@
             "id": "59c1d8c741a9ee2e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "未命名.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "未命名"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -188,6 +185,9 @@
   },
   "active": "59c1d8c741a9ee2e",
   "lastOpenFiles": [
+    "_meta/skill-recommendations.md",
+    "_meta/ingestion-skills.md",
+    "未命名.canvas",
     "graph.md",
     "papers/Zu 等 - 2023 - Single-cell analysis of chromatin accessibility in.md",
     "papers/Zhou 等 - 2020 - Roles of Aminoacyl-tRNA Synthetases in Cancer.md",
@@ -212,9 +212,6 @@
     "papers/Tumour-specific proline vulnerability uncovered by.md",
     "papers/Tryptophan depletion results in.md",
     "papers/TRANSLATIONAL RESEARCH EuropeanHeartJournal(2021)42,4264–4276.md",
-    "papers/Translation dysregulation in cancer as a source for.md",
-    "papers/Transient loss of Polycomb components.md",
-    "未命名.canvas",
     "papers",
     "raw/assets/bilibili-BV1h1PxzpEjm.mp3",
     "raw/assets/bilibili-BV1h1PxzpEjm.m4a",

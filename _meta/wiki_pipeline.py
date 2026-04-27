@@ -94,16 +94,16 @@ class WikiPipeline:
             f.write(f"\n{log_line}")
 
     def extract_pdf_with_marker(self, pdf_path: Path) -> dict:
-        """使用 marker-pdf 提取 PDF 内容"""
+        """使用 marker-pdf 提取 PDF 内容 (通过系统 Python 3.12)"""
         self.log(f"提取 PDF: {pdf_path.name}")
 
         # 生成输出目录
         output_dir = self.raw_dir / pdf_path.stem
 
         try:
-            # 调用 marker-pdf
+            # marker-pdf 安装在系统 Python 3.12 中，显式调用
             result = subprocess.run(
-                [self.marker_cmd, str(pdf_path), str(output_dir)],
+                ["python3.12", "-m", "marker.scripts.convert_single", str(pdf_path), "--output_dir", str(output_dir)],
                 capture_output=True,
                 text=True,
                 timeout=300  # 5分钟超时
@@ -481,8 +481,8 @@ def main():
     )
     parser.add_argument(
         "--wiki-dir",
-        default="/mnt/i/projects/obsidian_projects/llm-wiki",
-        help="llm-wiki 目录路径"
+        default=os.environ.get("LLM_WIKI_DIR", os.getcwd()),
+        help="llm-wiki 目录路径 (默认: 当前目录或 LLM_WIKI_DIR 环境变量)"
     )
     parser.add_argument(
         "--marker-cmd",
