@@ -21,3 +21,4 @@ failed/*
 # Obsidian
 .obsidian/workspace*
 .obsidian/graph.json
+__pycache__/
