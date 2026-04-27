@@ -150,19 +150,62 @@ marker_extracted: true
 """
         return frontmatter + extracted["content"]
 
-    def extract_structured_content(self, raw_content: str) -> dict:
-        """从原始内容提取结构化信息 (AIMRaD)"""
-        # 简单的启发式提取
+    def extract_structured_content(self, raw_content: str, use_ai: bool = False) -> dict:
+        """从原始内容提取结构化信息 (AIMRaD)
+        
+        Args:
+            raw_content: 原始文本内容
+            use_ai: 是否使用 AI 增强（需要配置 KIMI_API_KEY）
+        """
+        # 如果启用 AI 增强
+        if use_ai:
+            try:
+                from ai_enhancer import KimiEnhancer
+                enhancer = KimiEnhancer.from_config()
+                result = enhancer.enhance_paper(raw_content)
+                
+                if result.success:
+                    return {
+                        "title": result.title,
+                        "abstract": result.abstract,
+                        "background": result.background,
+                        "findings": result.findings,
+                        "methods": result.methods,
+                        "discussion": result.discussion,
+                        "keywords": result.keywords,
+                        "entities": result.entities,
+                        "ai_enhanced": True,
+                        "confidence": result.confidence,
+                        "model_used": result.model_used,
+                        "tokens_used": result.tokens_used
+                    }
+            except Exception as e:
+                self.log(f"AI 增强失败，回退到启发式提取: {str(e)}", "WARN")
+        
+        # 启发式提取（fallback）
         sections = {
+            "title": "",
             "abstract": "",
             "background": "",
             "findings": "",
             "methods": "",
-            "discussion": ""
+            "discussion": "",
+            "keywords": [],
+            "entities": {},
+            "ai_enhanced": False,
+            "confidence": "low",
+            "model_used": "heuristic",
+            "tokens_used": 0
         }
 
-        # 尝试提取摘要 (通常在前 500 字符)
+        # 尝试提取标题
         lines = raw_content.split('\n')
+        for line in lines[:10]:
+            if line.strip() and len(line.strip()) < 200:
+                sections["title"] = line.strip()
+                break
+
+        # 尝试提取摘要 (通常在前 500 字符)
         abstract_lines = []
         for line in lines[:50]:
             if len(line.strip()) > 50 and not line.startswith('#'):
@@ -188,19 +231,38 @@ marker_extracted: true
         safe_name = self._safe_filename(pdf_path.stem)
         today = datetime.now().strftime('%Y-%m-%d')
 
-        # 提取标题 (优先使用 PDF 文件名，或尝试从内容提取)
-        title = pdf_path.stem.replace('_', ' ').replace('-', ' ')
-        # 尝试从第一行提取标题
-        first_lines = raw_content.split('\n')[:5]
-        for line in first_lines:
-            if line.strip() and len(line.strip()) < 200:
-                title = line.strip()
-                break
+        # 提取标题 (优先使用 AI 提取的标题，或从内容提取)
+        title = structured.get("title", "")
+        if not title:
+            title = pdf_path.stem.replace('_', ' ').replace('-', ' ')
+            # 尝试从第一行提取标题
+            first_lines = raw_content.split('\n')[:5]
+            for line in first_lines:
+                if line.strip() and len(line.strip()) < 200:
+                    title = line.strip()
+                    break
 
-        # 提取实体
-        entities = self._extract_entities(title, structured["abstract"], structured["methods"])
+        # 提取实体（优先使用 AI 提取的实体）
+        ai_entities = structured.get("entities", {})
+        if ai_entities:
+            entities = {k: set(v) if isinstance(v, list) else set() 
+                       for k, v in ai_entities.items()}
+            # 确保所有键存在
+            for key in ['proteins', 'cell_types', 'pathways', 'methods', 'diseases', 'keywords']:
+                if key not in entities:
+                    entities[key] = set()
+        else:
+            entities = self._extract_entities(title, structured["abstract"], structured["methods"])
 
         # 生成 frontmatter
+        ai_meta = ""
+        if structured.get("ai_enhanced"):
+            ai_meta = f"""ai_enhanced: true
+confidence: {structured.get("confidence", "medium")}
+model_used: {structured.get("model_used", "unknown")}
+tokens_used: {structured.get("tokens_used", 0)}
+"""
+
         note = f"""---
 title: "{title}"
 created: {today}
@@ -208,13 +270,14 @@ updated: {today}
 type: paper
 tags: ["paper"]
 sources: ["raw/papers/{safe_name}.md"]
-confidence: medium
+confidence: {structured.get("confidence", "medium")}
 marker_extracted: true
----
+{ai_meta}---
 
 # {title}
 
 > 原文: [[{safe_name}]]
+> 提取方式: {"AI 增强 (" + structured.get("model_used", "") + ")" if structured.get("ai_enhanced") else "启发式提取"}
 
 ## 摘要
 
@@ -222,23 +285,23 @@ marker_extracted: true
 
 ## 背景与目的
 
-（待补充 - 从原文提取研究背景）
+{structured.get("background", "（待补充 - 从原文提取研究背景）")}
 
 ## 主要发现
 
-{structured["findings"] or "（待补充 - 从原文提取关键发现）"}
+{structured.get("findings", "（待补充 - 从原文提取关键发现）")}
 
 ## 方法概述
 
-{structured["methods"] or "（待补充）"}
+{structured.get("methods", "（待补充）")}
 
 ## 讨论与结论
 
-（待补充）
+{structured.get("discussion", "（待补充）")}
 
 ## 关键词
 
-{', '.join(sorted(entities['keywords'])[:10]) if entities['keywords'] else '（待补充）'}
+{', '.join(sorted(structured.get("keywords", []))[:10]) if structured.get("keywords") else '（待补充）'}
 
 ## 相关实体
 
@@ -246,7 +309,7 @@ marker_extracted: true
 
 ---
 
-> 本笔记基于自动提取生成，已标准化为 AIMRaD 结构。
+> 本笔记{"基于 AI 精炼生成" if structured.get("ai_enhanced") else "基于自动提取生成"}，已标准化为 AIMRaD 结构。
 """
         return note
 
@@ -367,9 +430,14 @@ marker_extracted: true
 
         self.log(f"索引更新完成: {len(paper_files)} 篇论文")
 
-    def process_pdf(self, pdf_path: Path) -> bool:
-        """处理单个 PDF 的完整流程"""
-        self.log(f"开始处理: {pdf_path.name}")
+    def process_pdf(self, pdf_path: Path, use_ai: bool = False) -> bool:
+        """处理单个 PDF 的完整流程
+        
+        Args:
+            pdf_path: PDF 文件路径
+            use_ai: 是否启用 AI 增强提取
+        """
+        self.log(f"开始处理: {pdf_path.name} (AI增强: {use_ai})")
 
         try:
             # Step 1: 提取 PDF 内容
@@ -387,8 +455,8 @@ marker_extracted: true
 
             self.log(f"原始内容已保存: {raw_file}")
 
-            # Step 3: 生成结构化笔记
-            structured = self.extract_structured_content(extracted["content"])
+            # Step 3: 生成结构化笔记（支持 AI 增强）
+            structured = self.extract_structured_content(extracted["content"], use_ai=use_ai)
             note_content = self.generate_paper_note(pdf_path, raw_content, structured)
 
             note_file = self.papers_dir / f"{safe_name}.md"
@@ -415,19 +483,23 @@ marker_extracted: true
 
             return False
 
-    def process_all_pending(self):
-        """处理 inbox/ 中所有待处理的 PDF"""
+    def process_all_pending(self, use_ai: bool = False):
+        """处理 inbox/ 中所有待处理的 PDF
+        
+        Args:
+            use_ai: 是否启用 AI 增强提取
+        """
         pdf_files = list(self.inbox_dir.glob("*.pdf"))
 
         if not pdf_files:
             self.log("inbox/ 中没有待处理的 PDF")
             return
 
-        self.log(f"发现 {len(pdf_files)} 个待处理 PDF")
+        self.log(f"发现 {len(pdf_files)} 个待处理 PDF (AI增强: {use_ai})")
 
         success_count = 0
         for pdf in pdf_files:
-            if self.process_pdf(pdf):
+            if self.process_pdf(pdf, use_ai=use_ai):
                 success_count += 1
 
         self.log(f"处理完成: {success_count}/{len(pdf_files)} 成功")
@@ -506,7 +578,24 @@ def main():
         help="处理单个 PDF 文件"
     )
 
+    # AI 增强选项
+    parser.add_argument(
+        "--ai",
+        action="store_true",
+        help="启用 AI 增强提取（需要 KIMI_API_KEY 环境变量）"
+    )
+    parser.add_argument(
+        "--no-ai",
+        action="store_true",
+        help="强制禁用 AI 增强（使用启发式提取）"
+    )
+
     args = parser.parse_args()
+
+    # 确定是否使用 AI
+    use_ai = args.ai
+    if args.no_ai:
+        use_ai = False
 
     # 初始化流水线
     pipeline = WikiPipeline(args.wiki_dir, args.marker_cmd)
@@ -514,9 +603,9 @@ def main():
     if args.watch:
         pipeline.watch()
     elif args.process:
-        pipeline.process_all_pending()
+        pipeline.process_all_pending(use_ai=use_ai)
     elif args.file:
-        pipeline.process_pdf(Path(args.file))
+        pipeline.process_pdf(Path(args.file), use_ai=use_ai)
         pipeline.update_index()
 
 

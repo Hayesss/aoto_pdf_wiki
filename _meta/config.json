@@ -1,0 +1,10 @@
+{
+  "api_key": "",
+  "model": "32k",
+  "max_tokens": 4096,
+  "temperature": 0.3,
+  "timeout": 120,
+  "fallback_enabled": true,
+  "prompt_dir": "./prompts",
+  "verbose": true
+}
